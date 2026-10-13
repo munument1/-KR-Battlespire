@@ -4,7 +4,7 @@ import argparse,contextlib,hashlib,json,os,queue,shutil,struct,sys,tempfile,thre
 from pathlib import Path,PurePosixPath
 import bsdiff4
 
-VERSION='0.1.0-preview1'
+VERSION='0.1.0-preview2'
 ASSETS=Path(getattr(sys,'_MEIPASS',Path(__file__).resolve().parent))/'assets/korean-patch.zip'
 
 class PatchError(Exception):pass
@@ -126,11 +126,35 @@ class Installer:
             digest=sha(value) if value is not None else None
             if digest==entry['target_sha256']:state='installed'
             elif digest==entry['source_sha256']:state='original'
-            else:raise PatchError('지원하는 원본과 다르거나 다른 패치가 적용돼 있습니다: '+entry['path'])
+            else:state='unknown'
             status.append(state)
         if all(s=='installed' for s in status):return 'installed'
-        if any(s=='installed' for s in status):raise PatchError('일부 파일만 패치되어 있습니다. 백업 복원 후 다시 설치하세요.')
+        # Previous releases may have different patched GAME.EXE bytes, not only
+        # an extra DOSBox config entry. Authenticate the entire old installation
+        # and its original backups before accepting any upgrade.
+        if any(s!='original' for s in status):
+            if self._upgrade_originals() is not None:return 'upgrade_available'
+            if 'unknown' in status:
+                name=self.entries[status.index('unknown')]['path']
+                raise PatchError('지원하는 원본과 다르거나 다른 패치가 적용돼 있습니다: '+name)
+            raise PatchError('일부 파일만 패치되어 있습니다. 백업 복원 후 다시 설치하세요.')
         return 'original'
+    def _upgrade_originals(self):
+        previous=self.bundle.manifest.get('upgrade_from')
+        if not previous:return None
+        folder=safe_path(self.root,'_Battlespire_Korean_Backup/'+previous['version'])
+        statefile=folder/'state.json'
+        if not statefile.exists():return None
+        state=json.loads(statefile.read_text(encoding='utf-8'))
+        if state.get('bundle_id')!=previous['bundle_id'] or state.get('status')!='installed':return None
+        restored={}
+        for e in previous['files']:
+            path=safe_path(self.root,e['path'])
+            if not path.exists() or sha(path.read_bytes())!=e['target_sha256']:return None
+            value=None if e['source_sha256'] is None else safe_path(folder/'original',e['path']).read_bytes()
+            if (sha(value) if value is not None else None)!=e['source_sha256']:raise PatchError('이전 버전의 백업이 손상되었습니다: '+e['path'])
+            restored[e['path']]=value
+        return restored
     def _state(self):
         path=self.backup/'state.json'
         if not path.exists():raise PatchError('이 패치의 백업 기록이 없습니다.')
@@ -147,11 +171,15 @@ class Installer:
         return restored
     def apply(self):
         with game_lock(self.root):
-            if self.check()=='installed':self.progress('이미 같은 패치가 설치되어 있습니다.');return 'already_installed'
-            self.progress('원본 확인 완료. 적용할 파일을 만드는 중...');prepared={};originals={}
+            status=self.check()
+            if status=='installed':self.progress('이미 같은 패치가 설치되어 있습니다.');return 'already_installed'
+            upgrade=self._upgrade_originals() if status=='upgrade_available' else None
+            self.progress('원본 확인 완료. 적용할 파일을 만드는 중...');prepared={};originals={};current_files={}
             for e in self.entries:
                 path=safe_path(self.root,e['path']);before=path.read_bytes() if path.exists() else None
-                # Revalidate after preflight; do not silently patch a moving file.
+                current_files[e['path']]=before
+                if upgrade is not None and e['path'] in upgrade:before=upgrade[e['path']]
+                # Revalidate original/backup data before building outputs.
                 if (sha(before) if before is not None else None)!=e['source_sha256']:raise PatchError('검사 후 파일이 바뀌었습니다: '+e['path'])
                 originals[e['path']]=before;prepared[e['path']]=self.bundle.rebuild(e,before)
                 self.progress('준비: '+e['path'])
@@ -171,16 +199,17 @@ class Installer:
             try:
                 for name,value in prepared.items():
                     path=safe_path(self.root,name);current=path.read_bytes() if path.exists() else None
-                    if current!=originals[name]:raise PatchError('설치 중 파일이 바뀌었습니다: '+name)
+                    if current!=current_files[name]:raise PatchError('설치 중 파일이 바뀌었습니다: '+name)
+                    if current==value:continue
                     atomic_write(path,value);written.append(name);self.progress('적용: '+name)
                 state['status']='installed';atomic_write(self.backup/'state.json',json.dumps(state,indent=2).encode())
             except Exception:
                 for name in reversed(written):
-                    path=safe_path(self.root,name);before=originals[name]
+                    path=safe_path(self.root,name);before=current_files[name]
                     if before is None:path.unlink()
                     else:atomic_write(path,before)
                 state['status']='rolled_back';atomic_write(self.backup/'state.json',json.dumps(state,indent=2).encode());raise
-            self.progress('설치 완료. 게임 폴더의 START_KOREAN.bat로 실행하세요.');return 'installed'
+            self.progress('설치 완료. Steam에서 플레이를 누르면 한국어판으로 실행됩니다.');return 'installed'
     def restore(self):
         with game_lock(self.root):
             state=self._state();originals=self._restore_bytes()
@@ -222,7 +251,8 @@ def gui():
         def worker():
             try:
                 installer=Installer(game,progress=lambda m:events.put(('log',m)))
-                if action=='check':events.put(('log','호환 원본입니다.' if installer.check()=='original' else '이미 설치되어 있습니다.'))
+                if action=='check':
+                    state=installer.check();events.put(('log',{'original':'호환 원본입니다.','installed':'이미 설치되어 있습니다.','upgrade_available':'이전 패치를 Steam 실행 지원 버전으로 갱신할 수 있습니다.'}[state]))
                 else:getattr(installer,action)()
             except Exception as error:events.put(('error',str(error)))
             finally:events.put(('done',''))

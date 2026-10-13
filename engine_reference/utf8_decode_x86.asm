@@ -1,6 +1,7 @@
 ; 32-bit x86, Keystone Intel syntax. EBX -> NUL-terminated UTF-8.
 ; Returns EAX=Unicode scalar, EBX=next byte. NUL does not advance.
-; Malformed sequence returns U+FFFD and advances one byte.
+; Legacy control bytes 0xFA..0xFE pass through unchanged (one byte).
+; Other malformed sequences return U+FFFD and advance one byte.
 ; Preserves all other general registers. Flags are clobbered.
 push ecx
 push edx
@@ -19,7 +20,12 @@ cmp eax, 0xf0
 jb three
 cmp eax, 0xf5
 jb four
-jmp invalid
+cmp eax, 0xfa
+jb invalid
+cmp eax, 0xfe
+ja invalid
+inc ebx
+jmp done
 two:
 mov ecx, 2
 and eax, 0x1f

@@ -64,6 +64,11 @@ cmp eax,33
 jb blank
 cmp eax,127
 jb ascii_slot
+cmp eax,0xfa
+jb hangul_range
+cmp eax,0xfe
+jbe blank
+hangul_range:
 cmp eax,0xac00
 jb fallback
 cmp eax,0xd7a3
