@@ -13,7 +13,9 @@ def archive(values):
 
 class InstallerTests(unittest.TestCase):
     def setUp(self):
-        self.tmp=tempfile.TemporaryDirectory();self.root=Path(self.tmp.name);self.game=self.root/'game';self.game.mkdir()
+        # Windows runners can return an 8.3 temp path. Canonicalize it exactly
+        # as Installer does, so fault injection targets the actual game file.
+        self.tmp=tempfile.TemporaryDirectory();self.root=Path(self.tmp.name).resolve();self.game=self.root/'game';self.game.mkdir()
         self.old={'GAME.EXE':b'original executable','GAMEDATA/TEXT.RSC':b'original text'}
         self.new={'GAME.EXE':b'patched executable','GAMEDATA/TEXT.RSC':'한국어'.encode(),'START_KOREAN.bat':b'new launcher'}
         records=[];blobs={}
