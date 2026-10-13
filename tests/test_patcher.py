@@ -75,6 +75,42 @@ class InstallerTests(unittest.TestCase):
     def test_partial_install_rejected(self):
         (self.game/'GAME.EXE').write_bytes(self.new['GAME.EXE'])
         with self.assertRaises(PatchError):self.installer.apply()
+    def upgrade_fixture(self):
+        self.installer.apply();old=json.loads(json.dumps(self.manifest))
+        with zipfile.ZipFile(self.bundle_path) as z:blobs={n:z.read(n) for n in z.namelist() if n!='manifest.json'}
+        cfg=self.game/'DOSBox-0.73/bs.conf';cfg.parent.mkdir();cfg.write_bytes(b'old config')
+        delta=bsdiff4.diff(b'old config',b'Steam-compatible config');blobs['steam']=delta
+        self.manifest.update(version='next',bundle_id='next-id',upgrade_from=dict(version=old['version'],bundle_id=old['bundle_id'],files=old['files']))
+        self.manifest['files'].append(dict(path='DOSBox-0.73/bs.conf',source_sha256=sha(b'old config'),target_sha256=sha(b'Steam-compatible config'),mode='bsdiff',payload='steam',payload_sha256=sha(delta)))
+        self.write_bundle(blobs);return Installer(self.game,Bundle(self.bundle_path))
+    def test_verified_upgrade_keeps_clean_original_backup_and_restores_it(self):
+        installer=self.upgrade_fixture();self.assertEqual(installer.check(),'upgrade_available');installer.apply()
+        self.assertEqual((self.game/'DOSBox-0.73/bs.conf').read_bytes(),b'Steam-compatible config')
+        installer.restore();self.assert_original()
+        self.assertEqual((self.game/'DOSBox-0.73/bs.conf').read_bytes(),b'old config')
+    def test_upgrade_accepts_changed_compiled_exe_only_with_verified_old_backup(self):
+        self.upgrade_fixture()
+        revised=b'new UTF-8 compiled executable with legacy RSC control handling'
+        with zipfile.ZipFile(self.bundle_path) as z:
+            blobs={name:z.read(name) for name in z.namelist() if name!='manifest.json'}
+        entry=next(e for e in self.manifest['files'] if e['path']=='GAME.EXE')
+        patch=bsdiff4.diff(self.old['GAME.EXE'],revised)
+        blobs[entry['payload']]=patch
+        entry['payload_sha256']=sha(patch)
+        entry['target_sha256']=sha(revised)
+        self.write_bundle(blobs)
+        upgraded=Installer(self.game,Bundle(self.bundle_path))
+        self.assertEqual(upgraded.check(),'upgrade_available')
+        upgraded.apply()
+        self.assertEqual((self.game/'GAME.EXE').read_bytes(),revised)
+        upgraded.restore()
+        self.assert_original()
+        self.assertEqual((self.game/'DOSBox-0.73/bs.conf').read_bytes(),b'old config')
+    def test_upgrade_rejects_damaged_original_backup(self):
+        installer=self.upgrade_fixture();(self.installer.backup/'original/GAME.EXE').write_bytes(b'bad')
+        with self.assertRaises(PatchError):installer.apply()
+        self.assertEqual((self.game/'GAME.EXE').read_bytes(),self.new['GAME.EXE'])
+        self.assertEqual((self.game/'DOSBox-0.73/bs.conf').read_bytes(),b'old config')
     def test_traversal_and_absolute_paths_rejected(self):
         for name in ['../GAME.EXE','/GAME.EXE','C:/GAME.EXE','a\\GAME.EXE','a/../../outside']:
             with self.subTest(name=name),self.assertRaises(PatchError):safe_path(self.game,name)
