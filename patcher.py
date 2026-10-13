@@ -4,7 +4,7 @@ import argparse,contextlib,hashlib,json,os,queue,shutil,struct,sys,tempfile,thre
 from pathlib import Path,PurePosixPath
 import bsdiff4
 
-VERSION='0.1.0-preview2'
+VERSION='0.1.0'
 ASSETS=Path(getattr(sys,'_MEIPASS',Path(__file__).resolve().parent))/'assets/korean-patch.zip'
 
 class PatchError(Exception):pass
@@ -140,21 +140,24 @@ class Installer:
             raise PatchError('일부 파일만 패치되어 있습니다. 백업 복원 후 다시 설치하세요.')
         return 'original'
     def _upgrade_originals(self):
-        previous=self.bundle.manifest.get('upgrade_from')
-        if not previous:return None
-        folder=safe_path(self.root,'_Battlespire_Korean_Backup/'+previous['version'])
-        statefile=folder/'state.json'
-        if not statefile.exists():return None
-        state=json.loads(statefile.read_text(encoding='utf-8'))
-        if state.get('bundle_id')!=previous['bundle_id'] or state.get('status')!='installed':return None
-        restored={}
-        for e in previous['files']:
-            path=safe_path(self.root,e['path'])
-            if not path.exists() or sha(path.read_bytes())!=e['target_sha256']:return None
-            value=None if e['source_sha256'] is None else safe_path(folder/'original',e['path']).read_bytes()
-            if (sha(value) if value is not None else None)!=e['source_sha256']:raise PatchError('이전 버전의 백업이 손상되었습니다: '+e['path'])
-            restored[e['path']]=value
-        return restored
+        for previous in [self.bundle.manifest.get('upgrade_from'),*self.bundle.manifest.get('upgrade_from_legacy',[])]:
+            if previous is None:continue
+            folder=safe_path(self.root,'_Battlespire_Korean_Backup/'+previous['version'])
+            statefile=folder/'state.json'
+            if not statefile.exists():continue
+            state=json.loads(statefile.read_text(encoding='utf-8'))
+            if state.get('bundle_id')!=previous['bundle_id'] or state.get('status')!='installed':continue
+            restored={}
+            for e in previous['files']:
+                path=safe_path(self.root,e['path'])
+                if not path.exists() or sha(path.read_bytes())!=e['target_sha256']:
+                    restored=None;break
+                value=None if e['source_sha256'] is None else safe_path(folder/'original',e['path']).read_bytes()
+                if (sha(value) if value is not None else None)!=e['source_sha256']:
+                    raise PatchError('이전 버전의 백업이 손상되었습니다: '+e['path'])
+                restored[e['path']]=value
+            if restored is not None:return restored
+        return None
     def _state(self):
         path=self.backup/'state.json'
         if not path.exists():raise PatchError('이 패치의 백업 기록이 없습니다.')
@@ -232,7 +235,7 @@ def gui():
     root=tk.Tk();root.title('배틀스파이어 한국어 패처 '+VERSION);root.geometry('680x430');root.minsize(620,380)
     frame=ttk.Frame(root,padding=18);frame.pack(fill='both',expand=True)
     ttk.Label(frame,text='배틀스파이어 한국어 패처',font=('맑은 고딕',17,'bold')).pack(anchor='w')
-    ttk.Label(frame,text='Steam 1.5 원본용 · 대사/서적/UI/EXE/직업/기술/메시지 포함\n실제 게임 전체 분기 검증 전인 시험 배포판입니다. 게임을 종료하고 적용하세요.').pack(anchor='w',pady=(8,14))
+    ttk.Label(frame,text='Steam 1.5 원본용 · 대사/서적/UI/EXE/직업/기술/메시지 포함\n게임 전체 분기를 전수 검증한 상태는 아닙니다. 게임을 종료하고 적용하세요.').pack(anchor='w',pady=(8,14))
     path=tk.StringVar();line=ttk.Frame(frame);line.pack(fill='x')
     ttk.Entry(line,textvariable=path).pack(side='left',fill='x',expand=True)
     ttk.Button(line,text='게임 폴더 선택',command=lambda:path.set(filedialog.askdirectory() or path.get())).pack(side='right',padx=(8,0))
@@ -252,7 +255,7 @@ def gui():
             try:
                 installer=Installer(game,progress=lambda m:events.put(('log',m)))
                 if action=='check':
-                    state=installer.check();events.put(('log',{'original':'호환 원본입니다.','installed':'이미 설치되어 있습니다.','upgrade_available':'이전 패치를 Steam 실행 지원 버전으로 갱신할 수 있습니다.'}[state]))
+                    state=installer.check();events.put(('log',{'original':'호환 원본입니다.','installed':'이미 설치되어 있습니다.','upgrade_available':'이전 한국어 패치를 0.1.0으로 갱신할 수 있습니다.'}[state]))
                 else:getattr(installer,action)()
             except Exception as error:events.put(('error',str(error)))
             finally:events.put(('done',''))

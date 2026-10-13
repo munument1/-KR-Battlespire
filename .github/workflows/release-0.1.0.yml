@@ -1,0 +1,79 @@
+name: Build and publish Battlespire 0.1.0
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'release_0_1_0_components/**'
+      - 'build_release_0_1_0_from_components.py'
+      - '.github/workflows/release-0.1.0.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: battlespire-0-1-0-release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    if: github.repository == 'munument1/-KR-Battlespire'
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install build dependencies
+        run: python -m pip install -r requirements-build.txt
+      - name: Recreate delta-only 0.1.0 payload
+        run: >
+          python build_release_0_1_0_from_components.py
+          --baseline assets/korean-patch.zip
+          --components release_0_1_0_components
+          --output assets/korean-patch-0.1.0.zip
+      - name: Installer and Steam fullscreen unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Save tested 0.1.0 payload
+        shell: pwsh
+        run: |
+          Move-Item assets/korean-patch-0.1.0.zip assets/korean-patch.zip -Force
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/korean-patch.zip
+          git diff --cached --quiet
+          if ($LASTEXITCODE -ne 0) {
+            git commit -m "Update Battlespire delta-only payload to 0.1.0"
+            git push origin HEAD:main
+            if ($LASTEXITCODE -ne 0) { throw "Cannot push validated release payload" }
+          }
+      - name: Build Windows patcher executable
+        run: >
+          python -m PyInstaller --clean --noconfirm --onefile --windowed
+          --name BattlespireKoreanPatcher
+          --add-data "assets;assets"
+          --add-data "licenses;licenses"
+          patcher.py
+      - name: Package executable and checksum
+        shell: pwsh
+        run: |
+          New-Item -Type Directory -Force -Path release-contents | Out-Null
+          Copy-Item dist/BattlespireKoreanPatcher.exe release-contents/
+          Copy-Item README.md release-contents/
+          Copy-Item LICENSE release-contents/
+          $name='BattlespireKoreanPatcher-0.1.0-Windows-x64.zip'
+          Compress-Archive -Path release-contents/* -DestinationPath "dist/$name" -Force
+          $hash=(Get-FileHash -Algorithm SHA256 "dist/$name").Hash.ToLowerInvariant()
+          "$hash  $name" | Set-Content -Encoding utf8 dist/SHA256SUMS.txt
+      - name: Publish version 0.1.0 (not a prerelease)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: pwsh
+        run: >
+          gh release create v0.1.0
+          dist/BattlespireKoreanPatcher-0.1.0-Windows-x64.zip
+          dist/SHA256SUMS.txt
+          --latest
+          --target main
+          --title "배틀스파이어 한국어 패처 0.1.0"
+          --notes-file RELEASE_0_1_0.md

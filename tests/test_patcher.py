@@ -106,6 +106,43 @@ class InstallerTests(unittest.TestCase):
         upgraded.restore()
         self.assert_original()
         self.assertEqual((self.game/'DOSBox-0.73/bs.conf').read_bytes(),b'old config')
+    def test_0_1_0_upgrades_both_preview2_and_preview1_without_losing_originals(self):
+        # Begin with installed Preview 1 and apply Preview 2, preserving its
+        # original backup rather than backing up already-patched bytes.
+        self.upgrade_fixture()
+        preview1=json.loads(json.dumps(self.manifest['upgrade_from']))
+        preview2_installer=Installer(self.game,Bundle(self.bundle_path))
+        self.assertEqual(preview2_installer.check(),'upgrade_available')
+        preview2_installer.apply()
+        preview2=dict(version=self.manifest['version'],bundle_id=self.manifest['bundle_id'],
+            files=[{k:e[k] for k in ('path','source_sha256','target_sha256')} for e in self.manifest['files']])
+        with zipfile.ZipFile(self.bundle_path) as z:
+            blobs={n:z.read(n) for n in z.namelist() if n!='manifest.json'}
+        target=b'DirectDraw fullscreen configuration'
+        entry=next(e for e in self.manifest['files'] if e['path']=='DOSBox-0.73/bs.conf')
+        change=bsdiff4.diff(b'old config',target)
+        entry['target_sha256']=sha(target)
+        entry['payload_sha256']=sha(change)
+        blobs[entry['payload']]=change
+        self.manifest.update(version='0.1.0',bundle_id='release-id',
+            upgrade_from=preview2,upgrade_from_legacy=[preview1])
+        self.write_bundle(blobs)
+        release=Installer(self.game,Bundle(self.bundle_path))
+        self.assertEqual(release.check(),'upgrade_available')
+        release.apply()
+        self.assertEqual((self.game/'DOSBox-0.73/bs.conf').read_bytes(),target)
+        release.restore()
+        self.assert_original()
+        self.assertEqual((self.game/'DOSBox-0.73/bs.conf').read_bytes(),b'old config')
+        # Preview 1 users can skip Preview 2 and upgrade directly.
+        self.installer.apply()
+        release=Installer(self.game,Bundle(self.bundle_path))
+        self.assertEqual(release.check(),'upgrade_available')
+        release.apply()
+        self.assertEqual((self.game/'DOSBox-0.73/bs.conf').read_bytes(),target)
+        release.restore()
+        self.assert_original()
+
     def test_upgrade_rejects_damaged_original_backup(self):
         installer=self.upgrade_fixture();(self.installer.backup/'original/GAME.EXE').write_bytes(b'bad')
         with self.assertRaises(PatchError):installer.apply()
