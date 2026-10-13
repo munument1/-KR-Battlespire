@@ -1,0 +1,28 @@
+{
+  "base_zip_sha256": "34927d70393bafc7ebf98e49a945bbecd19da9dc61642e76813273695f46a7e3",
+  "target_manifest_version": "0.1.0",
+  "expected_target_zip_sha256": "85b0ea3d0b94f1700917a91095855a4062f703bfe55f397cbe2c50007214c170",
+  "entries": [
+    {
+      "archive_path": "manifest.json",
+      "sha256": "2b3cbe586bee1e10e5df73e33a6bd991be139022c7267a36f0d33478494ad0c6",
+      "uncompressed_bytes": 132022,
+      "encoded_characters": 176032,
+      "chunks": [
+        "piece-000-000.b64",
+        "piece-000-001.b64"
+      ]
+    },
+    {
+      "archive_path": "patches/steam-config.dat",
+      "sha256": "2b156153f7faed6d5ab63b3f9ee17249187846d6679dde908a625e0d0793c64a",
+      "uncompressed_bytes": 3836,
+      "encoded_characters": 5116,
+      "chunks": [
+        "piece-258-000.b64"
+      ]
+    }
+  ],
+  "removed": [],
+  "base_entries_sha256": "b81f3a41f0ba791ce2ffd92b051d36717f728b1c2ef74a0a525a2789ebfa5991"
+}

@@ -3,7 +3,9 @@ import re
 
 def configure(data):
     text=data.decode('ascii');section='';found=set();out=[]
-    desired={('sdl','output'):'surface',('dosbox','memsize'):'63',('cpu','core'):'dynamic',('cpu','cycles'):'max'}
+    # DOSBox 0.73 'surface' does not scale to desktop fullscreen on many displays.
+    # Preserve Steam's original DirectDraw output and resolution/scaler settings.
+    desired={('sdl','output'):'ddraw',('dosbox','memsize'):'63',('cpu','core'):'dynamic',('cpu','cycles'):'max'}
     for line in text.splitlines(keepends=True):
         heading=re.fullmatch(r'\s*\[([^\]]+)\]\s*',line.strip())
         if heading:section=heading[1].lower()

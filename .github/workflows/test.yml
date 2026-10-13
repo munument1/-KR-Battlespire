@@ -13,10 +13,10 @@ jobs:
           python-version: '3.11'
       - run: python -m pip install -r requirements.txt
       - run: python -m unittest discover -s tests -v
-      - name: Preview 2 delta-only payload dry-run (PR)
+      - name: 0.1.0 delta-only payload dry-run (PR)
         if: github.event_name == 'pull_request'
         run: >
-          python build_preview2_from_components.py
+          python build_release_0_1_0_from_components.py
           --baseline assets/korean-patch.zip
-          --components release_components
-          --output assets/korean-patch-preview2-ci.zip
+          --components release_0_1_0_components
+          --output assets/korean-patch-0.1.0-ci.zip
