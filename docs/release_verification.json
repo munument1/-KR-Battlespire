@@ -1,0 +1,48 @@
+{
+  "version": "0.1.0-preview1",
+  "bundle_id": "2ac03fdffb55405d0e50870f7db697058f79f3f1c6f0cac41d420a0843c99b39",
+  "patcher_exe_sha256": "100897f983714051d2c576d30e5f26593815ddbde5e32dff23cd054f115eb12b",
+  "payload_sha256": "4d5d2cd5a68f8816d817abcb018b727ed5794e9664ede77abe6c159aa1fbe342",
+  "file_targets_verified": 39,
+  "original_files_restored": 35,
+  "created_files_removed": 4,
+  "compiled_installer": true,
+  "unicode_space_game_path": true,
+  "install_exact": true,
+  "reinstall_idempotent": true,
+  "restore_byte_exact": true,
+  "source_installation_unchanged": true,
+  "runs": [
+    {
+      "action": "check",
+      "exit_code": 0,
+      "seconds": 2.39
+    },
+    {
+      "action": "apply",
+      "exit_code": 0,
+      "seconds": 7.24
+    },
+    {
+      "action": "check",
+      "exit_code": 0,
+      "seconds": 1.41
+    },
+    {
+      "action": "apply",
+      "exit_code": 0,
+      "seconds": 1.42
+    },
+    {
+      "action": "restore",
+      "exit_code": 0,
+      "seconds": 1.61
+    },
+    {
+      "action": "check",
+      "exit_code": 0,
+      "seconds": 1.47
+    }
+  ],
+  "full_game_runtime_verified": false
+}

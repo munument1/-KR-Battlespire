@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+build/
+dist/
+*.spec
+_Battlespire_Korean_Backup/
+local-test/
+*.EXE
+*.BSA
+*.FNT
+*.RSC

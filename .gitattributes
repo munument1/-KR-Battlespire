@@ -1,0 +1,4 @@
+* text=auto eol=lf
+*.zip -text
+*.exe -text
+licenses/** -text -whitespace

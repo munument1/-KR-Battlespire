@@ -1,0 +1,821 @@
+{"id": "EXE:DATA:004D4", "category": "exe_strings", "translation": "철"}
+{"id": "EXE:DATA:004D9", "category": "exe_strings", "translation": "강철"}
+{"id": "EXE:DATA:004DF", "category": "exe_strings", "translation": "은"}
+{"id": "EXE:DATA:004E6", "category": "exe_strings", "translation": "엘프"}
+{"id": "EXE:DATA:004EC", "category": "exe_strings", "translation": "드워프"}
+{"id": "EXE:DATA:004F4", "category": "exe_strings", "translation": "미스릴"}
+{"id": "EXE:DATA:004FC", "category": "exe_strings", "translation": "아다만티움"}
+{"id": "EXE:DATA:00507", "category": "exe_strings", "translation": "흑단"}
+{"id": "EXE:DATA:0050D", "category": "exe_strings", "translation": "오크"}
+{"id": "EXE:DATA:00514", "category": "exe_strings", "translation": "데이드릭"}
+{"id": "EXE:DATA:00595", "category": "exe_strings", "translation": "의술"}
+{"id": "EXE:DATA:0059D", "category": "exe_strings", "translation": "도약"}
+{"id": "EXE:DATA:005A5", "category": "exe_strings", "translation": "자물쇠 따기"}
+{"id": "EXE:DATA:005B1", "category": "exe_strings", "translation": "은신"}
+{"id": "EXE:DATA:005B9", "category": "exe_strings", "translation": "수영"}
+{"id": "EXE:DATA:005C2", "category": "exe_strings", "translation": "배후 공격"}
+{"id": "EXE:DATA:005CF", "category": "exe_strings", "translation": "회피"}
+{"id": "EXE:DATA:005D7", "category": "exe_strings", "translation": "달리기"}
+{"id": "EXE:DATA:005DF", "category": "exe_strings", "translation": "파괴마법"}
+{"id": "EXE:DATA:005EB", "category": "exe_strings", "translation": "회복마법"}
+{"id": "EXE:DATA:005F7", "category": "exe_strings", "translation": "환영마법"}
+{"id": "EXE:DATA:00600", "category": "exe_strings", "translation": "변화마법"}
+{"id": "EXE:DATA:0060B", "category": "exe_strings", "translation": "기적술"}
+{"id": "EXE:DATA:00617", "category": "exe_strings", "translation": "신비술"}
+{"id": "EXE:DATA:00621", "category": "exe_strings", "translation": "단검"}
+{"id": "EXE:DATA:0062D", "category": "exe_strings", "translation": "장검"}
+{"id": "EXE:DATA:00638", "category": "exe_strings", "translation": "맨손 격투"}
+{"id": "EXE:DATA:00645", "category": "exe_strings", "translation": "도끼"}
+{"id": "EXE:DATA:00649", "category": "exe_strings", "translation": "둔기"}
+{"id": "EXE:DATA:00656", "category": "exe_strings", "translation": "사격"}
+{"id": "EXE:DATA:0065E", "category": "exe_strings", "translation": "치명타"}
+{"id": "EXE:DATA:00770", "category": "exe_strings", "translation": "자동 지도를 닫습니다."}
+{"id": "EXE:DATA:00782", "category": "exe_strings", "translation": "너무 멀리 있습니다."}
+{"id": "EXE:DATA:00798", "category": "exe_strings", "translation": "신전을 열려면 열쇠 여섯 개가 모두 필요합니다."}
+{"id": "EXE:DATA:007C3", "category": "exe_strings", "translation": "적의 회피에 균형을 잃었습니다."}
+{"id": "EXE:DATA:007F1", "category": "exe_strings", "translation": "은신 중"}
+{"id": "EXE:DATA:007FA", "category": "exe_strings", "translation": "보호의 갑옷을 입고 있지 않습니다!"}
+{"id": "EXE:DATA:00827", "category": "exe_strings", "translation": "%s: 말을 걸어 옵니다."}
+{"id": "EXE:DATA:00844", "category": "exe_strings", "translation": "%s: 당신을 바라보더니 대화하자는 듯 손짓합니다."}
+{"id": "EXE:DATA:0087F", "category": "exe_strings", "translation": "%s: 당신을 유심히 살피며 대화를 청합니다."}
+{"id": "EXE:DATA:008B9", "category": "exe_strings", "translation": "%s: 호기심 어린 눈으로 당신을 보며 대화를 원하는 듯합니다."}
+{"id": "EXE:DATA:008FA", "category": "exe_strings", "translation": "%s: 제자리에 선 채 당신에게 말하라고 손짓합니다."}
+{"id": "EXE:DATA:00932", "category": "exe_strings", "translation": "%s: 고개를 끄덕이며 말을 청합니다."}
+{"id": "EXE:DATA:00953", "category": "exe_strings", "translation": "%s: 당신과 이야기하고 싶은 모양입니다."}
+{"id": "EXE:DATA:0098C", "category": "exe_strings", "translation": "느린 낙하 효과가 활성화되었습니다."}
+{"id": "EXE:DATA:009A0", "category": "exe_strings", "translation": "짐이 너무 무거워 물에 뜰 수 없습니다!"}
+{"id": "EXE:DATA:009C9", "category": "exe_strings", "translation": "멀티플레이 중에는 할 수 없습니다!"}
+{"id": "EXE:DATA:009E2", "category": "exe_strings", "translation": "전체 화면 모드를 선택합니다."}
+{"id": "EXE:DATA:009FB", "category": "exe_strings", "translation": "게임 속도에 맞춰 화면 설정을 조절합니다."}
+{"id": "EXE:DATA:00A24", "category": "exe_strings", "translation": "키보드와 마우스 조작을 설정합니다."}
+{"id": "EXE:DATA:00A4B", "category": "exe_strings", "translation": "저장한 게임을 불러옵니다."}
+{"id": "EXE:DATA:00A5E", "category": "exe_strings", "translation": "현재 게임을 저장합니다."}
+{"id": "EXE:DATA:00A75", "category": "exe_strings", "translation": "현재 시나리오를 끝냅니다."}
+{"id": "EXE:DATA:00A8F", "category": "exe_strings", "translation": "게임을 종료하고 DOS로 돌아갑니다."}
+{"id": "EXE:DATA:00AAF", "category": "exe_strings", "translation": "효과음 음량을 바꿉니다."}
+{"id": "EXE:DATA:00AD0", "category": "exe_strings", "translation": "음악 음량을 바꿉니다."}
+{"id": "EXE:DATA:00AE9", "category": "exe_strings", "translation": "게임으로 돌아갑니다."}
+{"id": "EXE:DATA:00B10", "category": "exe_strings", "translation": "자세한 도움말을 엽니다."}
+{"id": "EXE:DATA:00B2F", "category": "exe_strings", "translation": "고해상도로 전환합니다. 빠른 컴퓨터가 필요합니다."}
+{"id": "EXE:DATA:00B62", "category": "exe_strings", "translation": "필요하면 화면 크기를 줄여 표시 속도를 높입니다."}
+{"id": "EXE:DATA:00B9A", "category": "exe_strings", "translation": "게임으로 돌아갑니다."}
+{"id": "EXE:DATA:00BAA", "category": "exe_strings", "translation": "캐릭터 정보 메뉴를 엽니다."}
+{"id": "EXE:DATA:00BCD", "category": "exe_strings", "translation": "주문서를 엽니다."}
+{"id": "EXE:DATA:00BE5", "category": "exe_strings", "translation": "소지품을 엽니다."}
+{"id": "EXE:DATA:00C04", "category": "exe_strings", "translation": "자동 지도 메뉴를 엽니다."}
+{"id": "EXE:DATA:00C24", "category": "exe_strings", "translation": "설정 화면을 엽니다."}
+{"id": "EXE:DATA:00C47", "category": "exe_strings", "translation": "단축키 배정을 확인합니다."}
+{"id": "EXE:DATA:00C74", "category": "exe_strings", "translation": "자세한 도움말을 엽니다."}
+{"id": "EXE:DATA:00C93", "category": "exe_strings", "translation": "항목을 선택합니다."}
+{"id": "EXE:DATA:00CB5", "category": "exe_strings", "translation": "목록을 위로 넘깁니다."}
+{"id": "EXE:DATA:00CD7", "category": "exe_strings", "translation": "목록을 아래로 넘깁니다."}
+{"id": "EXE:DATA:00CFB", "category": "exe_strings", "translation": "목록의 원하는 위치로 이동합니다."}
+{"id": "EXE:DATA:00D26", "category": "exe_strings", "translation": "자동 지도 화면으로 갑니다."}
+{"id": "EXE:DATA:00D3C", "category": "exe_strings", "translation": "소지품 화면으로 갑니다."}
+{"id": "EXE:DATA:00D54", "category": "exe_strings", "translation": "현재 힘을 표시합니다."}
+{"id": "EXE:DATA:00D75", "category": "exe_strings", "translation": "현재 지능을 표시합니다."}
+{"id": "EXE:DATA:00D9A", "category": "exe_strings", "translation": "현재 의지를 표시합니다."}
+{"id": "EXE:DATA:00DBC", "category": "exe_strings", "translation": "현재 민첩을 표시합니다."}
+{"id": "EXE:DATA:00DDC", "category": "exe_strings", "translation": "현재 지구력을 표시합니다."}
+{"id": "EXE:DATA:00DFE", "category": "exe_strings", "translation": "현재 성격을 표시합니다."}
+{"id": "EXE:DATA:00E22", "category": "exe_strings", "translation": "현재 속도를 표시합니다."}
+{"id": "EXE:DATA:00E40", "category": "exe_strings", "translation": "현재 행운을 표시합니다."}
+{"id": "EXE:DATA:00E5D", "category": "exe_strings", "translation": "게임을 계속합니다."}
+{"id": "EXE:DATA:00E6A", "category": "exe_strings", "translation": "사용 가능한 주문 점수를 표시합니다."}
+{"id": "EXE:DATA:00E96", "category": "exe_strings", "translation": "현재 부상 정도를 표시합니다."}
+{"id": "EXE:DATA:00EB7", "category": "exe_strings", "translation": "현재 짐의 무게를 표시합니다."}
+{"id": "EXE:DATA:00EE1", "category": "exe_strings", "translation": "자세한 도움말을 엽니다."}
+{"id": "EXE:DATA:00F00", "category": "exe_strings", "translation": "올려 둔 기술을 낮춥니다."}
+{"id": "EXE:DATA:00F29", "category": "exe_strings", "translation": "기술을 높입니다."}
+{"id": "EXE:DATA:00F48", "category": "exe_strings", "translation": "모두"}
+{"id": "EXE:DATA:00F4C", "category": "exe_strings", "translation": "생물"}
+{"id": "EXE:DATA:00F54", "category": "exe_strings", "translation": "생물 전리품"}
+{"id": "EXE:DATA:00F61", "category": "exe_strings", "translation": "주문 아이콘을 바꿉니다."}
+{"id": "EXE:DATA:00F86", "category": "exe_strings", "translation": "주문 전달 방식을 바꿉니다."}
+{"id": "EXE:DATA:00FA8", "category": "exe_strings", "translation": "주문의 원소를 바꿉니다."}
+{"id": "EXE:DATA:00FD0", "category": "exe_strings", "translation": "주문 단축키를 바꿉니다."}
+{"id": "EXE:DATA:00FF8", "category": "exe_strings", "translation": "이 적중 효과 변경 유형을 선택합니다."}
+{"id": "EXE:DATA:01018", "category": "exe_strings", "translation": "이 주문을 시전합니다."}
+{"id": "EXE:DATA:0103B", "category": "exe_strings", "translation": "주 화면으로 돌아갑니다."}
+{"id": "EXE:DATA:01054", "category": "exe_strings", "translation": "시전 비용, 지속 시간, 위력을 표시합니다."}
+{"id": "EXE:DATA:01082", "category": "exe_strings", "translation": "자세한 도움말을 엽니다."}
+{"id": "EXE:DATA:010A1", "category": "exe_strings", "translation": "현재 대상은 시전자 자신입니다."}
+{"id": "EXE:DATA:010BF", "category": "exe_strings", "translation": "현재 전달 방식은 접촉입니다."}
+{"id": "EXE:DATA:010E0", "category": "exe_strings", "translation": "현재 대상은 원거리의 생물 하나입니다."}
+{"id": "EXE:DATA:0110B", "category": "exe_strings", "translation": "현재 대상은 시전자 주변 영역입니다."}
+{"id": "EXE:DATA:01130", "category": "exe_strings", "translation": "현재 대상은 원거리 영역입니다."}
+{"id": "EXE:DATA:01150", "category": "exe_strings", "translation": "현재 원소는 화염입니다."}
+{"id": "EXE:DATA:01172", "category": "exe_strings", "translation": "현재 원소는 냉기입니다."}
+{"id": "EXE:DATA:01193", "category": "exe_strings", "translation": "현재 원소는 독입니다."}
+{"id": "EXE:DATA:011B7", "category": "exe_strings", "translation": "현재 원소는 전격입니다."}
+{"id": "EXE:DATA:011E0", "category": "exe_strings", "translation": "현재 원소는 마법입니다."}
+{"id": "EXE:DATA:01205", "category": "exe_strings", "translation": "시전할 주문 점수가 부족합니다!"}
+{"id": "EXE:DATA:01226", "category": "exe_strings", "translation": "주문이 없습니다."}
+{"id": "EXE:DATA:01244", "category": "exe_strings", "translation": "없음"}
+{"id": "EXE:DATA:01249", "category": "exe_strings", "translation": "닻을 내렸습니다."}
+{"id": "EXE:DATA:01259", "category": "exe_strings", "translation": "닻을 내리지 않았습니다."}
+{"id": "EXE:DATA:01279", "category": "exe_strings", "translation": "선택한 주문을 확정합니다."}
+{"id": "EXE:DATA:01293", "category": "exe_strings", "translation": "주문 선택을 취소합니다."}
+{"id": "EXE:DATA:012AB", "category": "exe_strings", "translation": "%s 기술이 향상되었습니다..."}
+{"id": "EXE:DATA:012C5", "category": "exe_strings", "translation": "원하는 키나 마우스 버튼을 누르세요..."}
+{"id": "EXE:DATA:012EA", "category": "exe_strings", "translation": "중복된 배정이 있습니다."}
+{"id": "EXE:DATA:0130A", "category": "exe_strings", "translation": "이 기능에 배정할 키나 마우스 버튼을 누르세요."}
+{"id": "EXE:DATA:0134B", "category": "exe_strings", "translation": "프로그램에서 이미 사용하는 키입니다."}
+{"id": "EXE:DATA:01374", "category": "exe_strings", "translation": "마우스의 수직 이동을 반전합니다."}
+{"id": "EXE:DATA:01399", "category": "exe_strings", "translation": "마우스의 수평 이동 속도를 바꿉니다."}
+{"id": "EXE:DATA:013BE", "category": "exe_strings", "translation": "마우스의 수직 이동 속도를 바꿉니다."}
+{"id": "EXE:DATA:013E1", "category": "exe_strings", "translation": "이 기능들의 입력을 바꿉니다."}
+{"id": "EXE:DATA:01403", "category": "exe_strings", "translation": "이 기능들의 입력을 바꿉니다."}
+{"id": "EXE:DATA:01425", "category": "exe_strings", "translation": "이 기능들의 입력을 바꿉니다."}
+{"id": "EXE:DATA:01447", "category": "exe_strings", "translation": "두 번 클릭의 시간 간격을 바꿉니다."}
+{"id": "EXE:DATA:01470", "category": "exe_strings", "translation": "기본 설정으로 복원합니다."}
+{"id": "EXE:DATA:01486", "category": "exe_strings", "translation": "커서 모드와 키보드의 회전 속도를 설정합니다."}
+{"id": "EXE:DATA:014B6", "category": "exe_strings", "translation": "시점 모드로 이동합니다."}
+{"id": "EXE:DATA:014D4", "category": "exe_strings", "translation": "커서 모드로 이동합니다."}
+{"id": "EXE:DATA:014F4", "category": "exe_strings", "translation": "조작 설정 메뉴를 닫습니다."}
+{"id": "EXE:DATA:01508", "category": "exe_strings", "translation": "자세한 도움말을 엽니다."}
+{"id": "EXE:DATA:01527", "category": "exe_strings", "translation": "준비된 화살이 없습니다."}
+{"id": "EXE:DATA:01541", "category": "exe_strings", "translation": "화살 명중!"}
+{"id": "EXE:DATA:0154D", "category": "exe_strings", "translation": "준비된 화살이 더 이상 없습니다."}
+{"id": "EXE:DATA:0156C", "category": "exe_strings", "translation": "무기가 손상되었습니다."}
+{"id": "EXE:DATA:01584", "category": "exe_strings", "translation": "무기가 손에서 튕겨 나갔습니다!"}
+{"id": "EXE:DATA:015AB", "category": "exe_strings", "translation": "강력한 일격을 가했습니다."}
+{"id": "EXE:DATA:015C4", "category": "exe_strings", "translation": "일격으로 적을 기절시켰습니다."}
+{"id": "EXE:DATA:015E3", "category": "exe_strings", "translation": "적을 비틀거리게 만들었습니다."}
+{"id": "EXE:DATA:01603", "category": "exe_strings", "translation": "피해를 주지 못하는 것 같습니다."}
+{"id": "EXE:DATA:01629", "category": "exe_strings", "translation": "%s 사망..."}
+{"id": "EXE:DATA:01634", "category": "exe_strings", "translation": "대답을 선택하세요."}
+{"id": "EXE:DATA:0164C", "category": "exe_strings", "translation": "대화를 닫습니다."}
+{"id": "EXE:DATA:0165D", "category": "exe_strings", "translation": "대화가 끝났습니다. 나가기를 눌러 계속하세요."}
+{"id": "EXE:DATA:0168B", "category": "exe_strings", "translation": "대화 기록을 위로 넘깁니다."}
+{"id": "EXE:DATA:0169A", "category": "exe_strings", "translation": "대화 기록을 아래로 넘깁니다."}
+{"id": "EXE:DATA:016AB", "category": "exe_strings", "translation": "[ 대화 끝 ]"}
+{"id": "EXE:DATA:016BD", "category": "exe_strings", "translation": "관문이 아직 활성화되지 않았습니다."}
+{"id": "EXE:DATA:016DE", "category": "exe_strings", "translation": "관문이 열렸습니다."}
+{"id": "EXE:DATA:016F2", "category": "exe_strings", "translation": "제어 막대를 꽂았습니다."}
+{"id": "EXE:DATA:01711", "category": "exe_strings", "translation": "열쇠를 꽂았습니다."}
+{"id": "EXE:DATA:01728", "category": "exe_strings", "translation": "신전이 열렸습니다."}
+{"id": "EXE:DATA:0173E", "category": "exe_strings", "translation": "신전을 열려면 열쇠 세 개를 모두 꽂아야 합니다."}
+{"id": "EXE:DATA:0176C", "category": "exe_strings", "translation": "선택했습니다."}
+{"id": "EXE:DATA:01776", "category": "exe_strings", "translation": "생성 점수가 음수인 동안에는 나갈 수 없습니다."}
+{"id": "EXE:DATA:017B8", "category": "exe_strings", "translation": "직업 이름을 정해야 합니다."}
+{"id": "EXE:DATA:017D5", "category": "exe_strings", "translation": "기술 열두 개를 모두 골라야 합니다."}
+{"id": "EXE:DATA:017F6", "category": "exe_strings", "translation": "%d레벨 직업을 저장했습니다."}
+{"id": "EXE:DATA:0181A", "category": "exe_strings", "translation": "갑옷 착용 불가"}
+{"id": "EXE:DATA:0182B", "category": "exe_strings", "translation": "경갑"}
+{"id": "EXE:DATA:01837", "category": "exe_strings", "translation": "평갑"}
+{"id": "EXE:DATA:01844", "category": "exe_strings", "translation": "중갑"}
+{"id": "EXE:DATA:01850", "category": "exe_strings", "translation": "새 캐릭터의 직업 이름을 정하세요."}
+{"id": "EXE:DATA:0186F", "category": "exe_strings", "translation": "최대 체력을 높입니다."}
+{"id": "EXE:DATA:0189A", "category": "exe_strings", "translation": "최대 체력을 낮춥니다."}
+{"id": "EXE:DATA:018C5", "category": "exe_strings", "translation": "주력 기술 목록을 바꿉니다."}
+{"id": "EXE:DATA:018E0", "category": "exe_strings", "translation": "주요 기술 목록을 바꿉니다."}
+{"id": "EXE:DATA:018F9", "category": "exe_strings", "translation": "보조 기술 목록을 바꿉니다."}
+{"id": "EXE:DATA:01912", "category": "exe_strings", "translation": "힘을 바꿉니다."}
+{"id": "EXE:DATA:01931", "category": "exe_strings", "translation": "지능을 바꿉니다."}
+{"id": "EXE:DATA:01954", "category": "exe_strings", "translation": "의지를 바꿉니다."}
+{"id": "EXE:DATA:01974", "category": "exe_strings", "translation": "민첩을 바꿉니다."}
+{"id": "EXE:DATA:01992", "category": "exe_strings", "translation": "지구력을 바꿉니다."}
+{"id": "EXE:DATA:019B2", "category": "exe_strings", "translation": "성격을 바꿉니다."}
+{"id": "EXE:DATA:019D4", "category": "exe_strings", "translation": "속도를 바꿉니다."}
+{"id": "EXE:DATA:019F0", "category": "exe_strings", "translation": "행운을 바꿉니다."}
+{"id": "EXE:DATA:01A0B", "category": "exe_strings", "translation": "기타 기술을 바꿉니다."}
+{"id": "EXE:DATA:01A28", "category": "exe_strings", "translation": "시작 주문을 바꿉니다."}
+{"id": "EXE:DATA:01A4E", "category": "exe_strings", "translation": "시작 장비를 바꿉니다."}
+{"id": "EXE:DATA:01A78", "category": "exe_strings", "translation": "시작 마법 아이템을 바꿉니다."}
+{"id": "EXE:DATA:01AA3", "category": "exe_strings", "translation": "장점과 단점을 바꿉니다."}
+{"id": "EXE:DATA:01ACD", "category": "exe_strings", "translation": "직업을 저장합니다."}
+{"id": "EXE:DATA:01AE5", "category": "exe_strings", "translation": "캐릭터 생성을 취소하고 이전 메뉴로 돌아갑니다."}
+{"id": "EXE:DATA:01B1C", "category": "exe_strings", "translation": "캐릭터 생성을 마치고 게임을 시작합니다."}
+{"id": "EXE:DATA:01B4B", "category": "exe_strings", "translation": "남은 점수를 표시합니다."}
+{"id": "EXE:DATA:01B80", "category": "exe_strings", "translation": "현재 최대 체력을 표시합니다."}
+{"id": "EXE:DATA:01BAD", "category": "exe_strings", "translation": "자세한 도움말을 엽니다."}
+{"id": "EXE:DATA:01BCC", "category": "exe_strings", "translation": "기타 기술을 바꿉니다."}
+{"id": "EXE:DATA:01BEA", "category": "exe_strings", "translation": "캐릭터 생성의 주 화면으로 돌아갑니다."}
+{"id": "EXE:DATA:01C17", "category": "exe_strings", "translation": "주문서에 주문을 추가합니다."}
+{"id": "EXE:DATA:01C36", "category": "exe_strings", "translation": "주문서에서 주문을 지웁니다."}
+{"id": "EXE:DATA:01C5B", "category": "exe_strings", "translation": "캐릭터 생성의 주 화면으로 돌아갑니다."}
+{"id": "EXE:DATA:01C88", "category": "exe_strings", "translation": "자세한 도움말을 엽니다."}
+{"id": "EXE:DATA:01CA7", "category": "exe_strings", "translation": "현재 주문을 주문서에 추가합니다."}
+{"id": "EXE:DATA:01CD2", "category": "exe_strings", "translation": "방금 추가한 주문을 제거합니다."}
+{"id": "EXE:DATA:01CFE", "category": "exe_strings", "translation": "주문서 화면으로 돌아갑니다."}
+{"id": "EXE:DATA:01D22", "category": "exe_strings", "translation": "소지품에 장비를 추가합니다."}
+{"id": "EXE:DATA:01D43", "category": "exe_strings", "translation": "소지품에서 장비를 제거합니다."}
+{"id": "EXE:DATA:01D69", "category": "exe_strings", "translation": "이전 아이템 목록으로 넘깁니다."}
+{"id": "EXE:DATA:01D91", "category": "exe_strings", "translation": "다음 아이템 목록으로 넘깁니다."}
+{"id": "EXE:DATA:01DBC", "category": "exe_strings", "translation": "캐릭터 생성의 주 화면으로 돌아갑니다."}
+{"id": "EXE:DATA:01DE9", "category": "exe_strings", "translation": "자세한 도움말을 엽니다."}
+{"id": "EXE:DATA:01E08", "category": "exe_strings", "translation": "소지품에 마법 아이템을 추가합니다."}
+{"id": "EXE:DATA:01E2D", "category": "exe_strings", "translation": "소지품에서 마법 아이템을 제거합니다."}
+{"id": "EXE:DATA:01E56", "category": "exe_strings", "translation": "이전 아이템 목록으로 넘깁니다."}
+{"id": "EXE:DATA:01E7E", "category": "exe_strings", "translation": "다음 아이템 목록으로 넘깁니다."}
+{"id": "EXE:DATA:01EA9", "category": "exe_strings", "translation": "캐릭터 생성의 주 화면으로 돌아갑니다."}
+{"id": "EXE:DATA:01ED6", "category": "exe_strings", "translation": "자세한 도움말을 엽니다."}
+{"id": "EXE:DATA:01EF5", "category": "exe_strings", "translation": "%s 저항 증가를 선택합니다."}
+{"id": "EXE:DATA:01F19", "category": "exe_strings", "translation": "%s 면역을 선택합니다."}
+{"id": "EXE:DATA:01F31", "category": "exe_strings", "translation": "예민한 청각으로 더 먼 곳의 소리를 듣습니다."}
+{"id": "EXE:DATA:01F67", "category": "exe_strings", "translation": "적의 주문에 맞으면 주문 점수를 회복합니다."}
+{"id": "EXE:DATA:01FAA", "category": "exe_strings", "translation": "빠른 치유로 체력을 더 빨리 회복합니다."}
+{"id": "EXE:DATA:01FDC", "category": "exe_strings", "translation": "체력 재생으로 체력을 계속 회복합니다."}
+{"id": "EXE:DATA:02014", "category": "exe_strings", "translation": "주문 점수를 재생합니다."}
+{"id": "EXE:DATA:0202D", "category": "exe_strings", "translation": "운동 능력이 대부분의 신체 기술에 보너스를 줍니다."}
+{"id": "EXE:DATA:02060", "category": "exe_strings", "translation": "죽음이 가까울 때 더 강해집니다."}
+{"id": "EXE:DATA:02096", "category": "exe_strings", "translation": "주문 점수를 줄입니다."}
+{"id": "EXE:DATA:020BB", "category": "exe_strings", "translation": "주문 점수를 늘립니다."}
+{"id": "EXE:DATA:020E0", "category": "exe_strings", "translation": "%s 저항을 낮춥니다."}
+{"id": "EXE:DATA:020FD", "category": "exe_strings", "translation": "%s에 극도로 취약해집니다."}
+{"id": "EXE:DATA:0211B", "category": "exe_strings", "translation": "정상적인 방법으로는 주문 점수를 재생할 수 없습니다."}
+{"id": "EXE:DATA:02154", "category": "exe_strings", "translation": "방패 사용 금지 여부를 정합니다."}
+{"id": "EXE:DATA:02187", "category": "exe_strings", "translation": "착용 가능한 갑옷의 최대 등급을 낮춥니다."}
+{"id": "EXE:DATA:021BA", "category": "exe_strings", "translation": "착용 가능한 갑옷의 최대 등급을 높입니다."}
+{"id": "EXE:DATA:021ED", "category": "exe_strings", "translation": "사용 가능한 재질의 최대 등급을 낮춥니다."}
+{"id": "EXE:DATA:02223", "category": "exe_strings", "translation": "사용 가능한 재질의 최대 등급을 높입니다."}
+{"id": "EXE:DATA:02259", "category": "exe_strings", "translation": "단검 사용 가능 여부를 정합니다."}
+{"id": "EXE:DATA:0229A", "category": "exe_strings", "translation": "장검 사용 가능 여부를 정합니다."}
+{"id": "EXE:DATA:022DA", "category": "exe_strings", "translation": "둔기 사용 가능 여부를 정합니다."}
+{"id": "EXE:DATA:02314", "category": "exe_strings", "translation": "도끼 사용 가능 여부를 정합니다."}
+{"id": "EXE:DATA:02345", "category": "exe_strings", "translation": "사격 무기 사용 가능 여부를 정합니다."}
+{"id": "EXE:DATA:02381", "category": "exe_strings", "translation": "캐릭터 생성의 주 화면으로 돌아갑니다."}
+{"id": "EXE:DATA:023AE", "category": "exe_strings", "translation": "자세한 도움말을 엽니다."}
+{"id": "EXE:DATA:023CD", "category": "exe_strings", "translation": "선택한 기술을 확정합니다."}
+{"id": "EXE:DATA:023E7", "category": "exe_strings", "translation": "기술 선택을 취소합니다."}
+{"id": "EXE:DATA:023FF", "category": "exe_strings", "translation": "이전 쪽."}
+{"id": "EXE:DATA:0240E", "category": "exe_strings", "translation": "다음 쪽."}
+{"id": "EXE:DATA:02419", "category": "exe_strings", "translation": "책을 덮습니다."}
+{"id": "EXE:DATA:02425", "category": "exe_strings", "translation": "현재 열린 보관함입니다."}
+{"id": "EXE:DATA:0243D", "category": "exe_strings", "translation": "소지품의 아이템입니다."}
+{"id": "EXE:DATA:02450", "category": "exe_strings", "translation": "현재 열린 다른 보관함입니다."}
+{"id": "EXE:DATA:02472", "category": "exe_strings", "translation": "다른 소지품의 아이템입니다."}
+{"id": "EXE:DATA:0248F", "category": "exe_strings", "translation": "가지고 있는 소지품 목록을 넘깁니다."}
+{"id": "EXE:DATA:024B3", "category": "exe_strings", "translation": "다른 소지품 목록을 넘깁니다."}
+{"id": "EXE:DATA:024D9", "category": "exe_strings", "translation": "현재 착용 중인 아이템입니다."}
+{"id": "EXE:DATA:024EF", "category": "exe_strings", "translation": "소지품 메뉴를 닫습니다."}
+{"id": "EXE:DATA:02508", "category": "exe_strings", "translation": "현재 방어도를 표시합니다."}
+{"id": "EXE:DATA:02531", "category": "exe_strings", "translation": "특정 아이템의 표시 여부를 정합니다."}
+{"id": "EXE:DATA:02563", "category": "exe_strings", "translation": "특정 아이템의 표시 여부를 정합니다."}
+{"id": "EXE:DATA:02595", "category": "exe_strings", "translation": "특정 아이템의 표시 여부를 정합니다."}
+{"id": "EXE:DATA:025C7", "category": "exe_strings", "translation": "특정 아이템의 표시 여부를 정합니다."}
+{"id": "EXE:DATA:025F9", "category": "exe_strings", "translation": "특정 아이템의 표시 여부를 정합니다."}
+{"id": "EXE:DATA:0262B", "category": "exe_strings", "translation": "특정 아이템의 표시 여부를 정합니다."}
+{"id": "EXE:DATA:0265D", "category": "exe_strings", "translation": "자세한 도움말을 엽니다."}
+{"id": "EXE:DATA:0267C", "category": "exe_strings", "translation": "%s 주문 두루마리"}
+{"id": "EXE:DATA:0268F", "category": "exe_strings", "translation": "두루마리"}
+{"id": "EXE:DATA:02696", "category": "exe_strings", "translation": "회복 물약 (%d)"}
+{"id": "EXE:DATA:026B1", "category": "exe_strings", "translation": "수중 호흡 물약 (%d)"}
+{"id": "EXE:DATA:026D0", "category": "exe_strings", "translation": "%s / %s (%d)"}
+{"id": "EXE:DATA:026DE", "category": "exe_strings", "translation": "이미 아는 주문입니다."}
+{"id": "EXE:DATA:026FB", "category": "exe_strings", "translation": "주문 목록에 추가했습니다."}
+{"id": "EXE:DATA:02724", "category": "exe_strings", "translation": "이 방법으로는 주문 점수를 재생할 수 없습니다."}
+{"id": "EXE:DATA:0275A", "category": "exe_strings", "translation": "주문 점수가 이미 가득 찼습니다."}
+{"id": "EXE:DATA:02788", "category": "exe_strings", "translation": "주문 점수를 회복했습니다."}
+{"id": "EXE:DATA:027AE", "category": "exe_strings", "translation": "이미 준비된 주문이 있습니다."}
+{"id": "EXE:DATA:027CE", "category": "exe_strings", "translation": "수중 호흡 효과가 활성화되었습니다."}
+{"id": "EXE:DATA:027E6", "category": "exe_strings", "translation": "주문을 시전하려면 소지품 화면을 닫으세요."}
+{"id": "EXE:DATA:02807", "category": "exe_strings", "translation": "짐을 더 들 수 없습니다."}
+{"id": "EXE:DATA:02828", "category": "exe_strings", "translation": "마법 아이템을 복원했습니다."}
+{"id": "EXE:DATA:02846", "category": "exe_strings", "translation": "마법 궤짝이 평범한 상자로 돌아갑니다."}
+{"id": "EXE:DATA:02868", "category": "exe_strings", "translation": "이 장비를 착용할 수 없습니다."}
+{"id": "EXE:DATA:0288B", "category": "exe_strings", "translation": "%s 소멸..."}
+{"id": "EXE:DATA:0289B", "category": "exe_strings", "translation": "%s 파괴..."}
+{"id": "EXE:DATA:028AE", "category": "exe_strings", "translation": "선택한 게임을 불러옵니다."}
+{"id": "EXE:DATA:028D8", "category": "exe_strings", "translation": "선택한 게임을 불러옵니다."}
+{"id": "EXE:DATA:02902", "category": "exe_strings", "translation": "위로 넘겨 이전 저장 게임을 봅니다."}
+{"id": "EXE:DATA:02926", "category": "exe_strings", "translation": "아래로 넘겨 다음 저장 게임을 봅니다."}
+{"id": "EXE:DATA:02948", "category": "exe_strings", "translation": "설정 화면으로 돌아갑니다."}
+{"id": "EXE:DATA:0296A", "category": "exe_strings", "translation": "현재 게임을 저장합니다."}
+{"id": "EXE:DATA:02994", "category": "exe_strings", "translation": "현재 게임을 저장합니다."}
+{"id": "EXE:DATA:029BE", "category": "exe_strings", "translation": "위로 넘겨 이전 저장 게임을 봅니다."}
+{"id": "EXE:DATA:029E2", "category": "exe_strings", "translation": "아래로 넘겨 다음 저장 게임을 봅니다."}
+{"id": "EXE:DATA:02A04", "category": "exe_strings", "translation": "설정 화면으로 돌아갑니다."}
+{"id": "EXE:DATA:02A26", "category": "exe_strings", "translation": "1번 게임을 불러옵니다."}
+{"id": "EXE:DATA:02A3A", "category": "exe_strings", "translation": "2번 게임을 불러옵니다."}
+{"id": "EXE:DATA:02A4E", "category": "exe_strings", "translation": "3번 게임을 불러옵니다."}
+{"id": "EXE:DATA:02A62", "category": "exe_strings", "translation": "4번 게임을 불러옵니다."}
+{"id": "EXE:DATA:02A76", "category": "exe_strings", "translation": "5번 게임을 불러옵니다."}
+{"id": "EXE:DATA:02A8A", "category": "exe_strings", "translation": "6번 게임을 불러옵니다."}
+{"id": "EXE:DATA:02A9E", "category": "exe_strings", "translation": "7번 게임을 불러옵니다."}
+{"id": "EXE:DATA:02AB2", "category": "exe_strings", "translation": "8번 게임을 불러옵니다."}
+{"id": "EXE:DATA:02AC6", "category": "exe_strings", "translation": "9번 게임을 불러옵니다."}
+{"id": "EXE:DATA:02ADA", "category": "exe_strings", "translation": "10번 게임을 불러옵니다."}
+{"id": "EXE:DATA:02AEF", "category": "exe_strings", "translation": "선택한 저장 칸의 이름을 표시합니다."}
+{"id": "EXE:DATA:02B2D", "category": "exe_strings", "translation": "게임을 불러옵니다."}
+{"id": "EXE:DATA:02B3C", "category": "exe_strings", "translation": "불러오기를 취소합니다."}
+{"id": "EXE:DATA:02B53", "category": "exe_strings", "translation": "1번 게임을 저장합니다."}
+{"id": "EXE:DATA:02B67", "category": "exe_strings", "translation": "2번 게임을 저장합니다."}
+{"id": "EXE:DATA:02B7B", "category": "exe_strings", "translation": "3번 게임을 저장합니다."}
+{"id": "EXE:DATA:02B8F", "category": "exe_strings", "translation": "4번 게임을 저장합니다."}
+{"id": "EXE:DATA:02BA3", "category": "exe_strings", "translation": "5번 게임을 저장합니다."}
+{"id": "EXE:DATA:02BB7", "category": "exe_strings", "translation": "6번 게임을 저장합니다."}
+{"id": "EXE:DATA:02BCB", "category": "exe_strings", "translation": "7번 게임을 저장합니다."}
+{"id": "EXE:DATA:02BDF", "category": "exe_strings", "translation": "8번 게임을 저장합니다."}
+{"id": "EXE:DATA:02BF3", "category": "exe_strings", "translation": "9번 게임을 저장합니다."}
+{"id": "EXE:DATA:02C07", "category": "exe_strings", "translation": "10번 게임을 저장합니다."}
+{"id": "EXE:DATA:02C1C", "category": "exe_strings", "translation": "이름을 바꾸고 저장합니다."}
+{"id": "EXE:DATA:02C40", "category": "exe_strings", "translation": "게임을 저장합니다."}
+{"id": "EXE:DATA:02C4F", "category": "exe_strings", "translation": "저장을 취소합니다."}
+{"id": "EXE:DATA:02C65", "category": "exe_strings", "translation": "저장 게임의 이름을 입력하세요."}
+{"id": "EXE:DATA:02C7E", "category": "exe_strings", "translation": "싱글플레이 모드를 선택합니다."}
+{"id": "EXE:DATA:02C99", "category": "exe_strings", "translation": "멀티플레이 모드를 선택합니다."}
+{"id": "EXE:DATA:02CB2", "category": "exe_strings", "translation": "배틀스파이어를 종료하고 DOS로 돌아갑니다."}
+{"id": "EXE:DATA:02CD8", "category": "exe_strings", "translation": "저장한 게임을 불러옵니다."}
+{"id": "EXE:DATA:02CF6", "category": "exe_strings", "translation": "새 게임을 시작합니다."}
+{"id": "EXE:DATA:02D08", "category": "exe_strings", "translation": "이전 메뉴로 돌아갑니다."}
+{"id": "EXE:DATA:02D1F", "category": "exe_strings", "translation": "게임을 끝냅니다."}
+{"id": "EXE:DATA:02D2D", "category": "exe_strings", "translation": "기존 캐릭터를 선택합니다."}
+{"id": "EXE:DATA:02D53", "category": "exe_strings", "translation": "새 캐릭터를 만듭니다."}
+{"id": "EXE:DATA:02D78", "category": "exe_strings", "translation": "자세한 도움말을 엽니다."}
+{"id": "EXE:DATA:02D9C", "category": "exe_strings", "translation": "캐릭터를 남성으로 정합니다."}
+{"id": "EXE:DATA:02DB6", "category": "exe_strings", "translation": "캐릭터를 여성으로 정합니다."}
+{"id": "EXE:DATA:02DD2", "category": "exe_strings", "translation": "종족을 레드가드로 정합니다."}
+{"id": "EXE:DATA:02DF0", "category": "exe_strings", "translation": "종족을 브레튼으로 정합니다."}
+{"id": "EXE:DATA:02E0C", "category": "exe_strings", "translation": "종족을 노드로 정합니다."}
+{"id": "EXE:DATA:02E26", "category": "exe_strings", "translation": "종족을 하이 엘프로 정합니다."}
+{"id": "EXE:DATA:02E44", "category": "exe_strings", "translation": "종족을 다크 엘프로 정합니다."}
+{"id": "EXE:DATA:02E62", "category": "exe_strings", "translation": "종족을 우드 엘프로 정합니다."}
+{"id": "EXE:DATA:02E80", "category": "exe_strings", "translation": "종족 선택을 마치고 진행합니다."}
+{"id": "EXE:DATA:02EA3", "category": "exe_strings", "translation": "자세한 도움말을 엽니다."}
+{"id": "EXE:DATA:02EC2", "category": "exe_strings", "translation": "이전 머리 모양을 고릅니다."}
+{"id": "EXE:DATA:02EEF", "category": "exe_strings", "translation": "다음 머리 모양을 고릅니다."}
+{"id": "EXE:DATA:02F1B", "category": "exe_strings", "translation": "이전 눈 모양을 고릅니다."}
+{"id": "EXE:DATA:02F47", "category": "exe_strings", "translation": "다음 눈 모양을 고릅니다."}
+{"id": "EXE:DATA:02F72", "category": "exe_strings", "translation": "이전 입 모양을 고릅니다."}
+{"id": "EXE:DATA:02FA0", "category": "exe_strings", "translation": "다음 입 모양을 고릅니다."}
+{"id": "EXE:DATA:02FCD", "category": "exe_strings", "translation": "얼굴을 무작위로 만듭니다."}
+{"id": "EXE:DATA:02FE4", "category": "exe_strings", "translation": "얼굴 만들기를 마칩니다."}
+{"id": "EXE:DATA:02FFF", "category": "exe_strings", "translation": "이전 메뉴로 돌아갑니다."}
+{"id": "EXE:DATA:0301A", "category": "exe_strings", "translation": "자세한 도움말을 엽니다."}
+{"id": "EXE:DATA:03039", "category": "exe_strings", "translation": "선택을 확정하고 계속합니다."}
+{"id": "EXE:DATA:03059", "category": "exe_strings", "translation": "자세한 도움말을 엽니다."}
+{"id": "EXE:DATA:0307D", "category": "exe_strings", "translation": "새 멀티플레이 게임을 만듭니다."}
+{"id": "EXE:DATA:0309C", "category": "exe_strings", "translation": "멀티플레이 게임에 참가합니다."}
+{"id": "EXE:DATA:030B5", "category": "exe_strings", "translation": "데스매치 게임을 만듭니다."}
+{"id": "EXE:DATA:030CF", "category": "exe_strings", "translation": "협동 게임을 만듭니다."}
+{"id": "EXE:DATA:030EA", "category": "exe_strings", "translation": "팀 대전 게임을 만듭니다."}
+{"id": "EXE:DATA:03107", "category": "exe_strings", "translation": "이전 메뉴로 돌아갑니다."}
+{"id": "EXE:DATA:03120", "category": "exe_strings", "translation": "선택한 레벨을 고릅니다."}
+{"id": "EXE:DATA:03138", "category": "exe_strings", "translation": "점수를 1000으로 설정합니다."}
+{"id": "EXE:DATA:0314C", "category": "exe_strings", "translation": "점수를 2500으로 설정합니다."}
+{"id": "EXE:DATA:03160", "category": "exe_strings", "translation": "점수를 5000으로 설정합니다."}
+{"id": "EXE:DATA:03174", "category": "exe_strings", "translation": "점수를 7500으로 설정합니다."}
+{"id": "EXE:DATA:03188", "category": "exe_strings", "translation": "점수를 9000으로 설정합니다."}
+{"id": "EXE:DATA:0319C", "category": "exe_strings", "translation": "게임 이름을 바꿉니다."}
+{"id": "EXE:DATA:031B9", "category": "exe_strings", "translation": "게임 암호를 바꿉니다."}
+{"id": "EXE:DATA:031D3", "category": "exe_strings", "translation": "괴물이 등장하게 합니다."}
+{"id": "EXE:DATA:031E5", "category": "exe_strings", "translation": "괴물이 등장하지 않게 합니다."}
+{"id": "EXE:DATA:031F8", "category": "exe_strings", "translation": "게임을 만듭니다."}
+{"id": "EXE:DATA:03209", "category": "exe_strings", "translation": "선택한 게임에 참가합니다."}
+{"id": "EXE:DATA:03220", "category": "exe_strings", "translation": "암호를 입력합니다."}
+{"id": "EXE:DATA:03232", "category": "exe_strings", "translation": "이 암호로 접속합니다."}
+{"id": "EXE:DATA:03245", "category": "exe_strings", "translation": "멀티플레이 메뉴로 돌아갑니다."}
+{"id": "EXE:DATA:03261", "category": "exe_strings", "translation": "팀 색상을 바꿉니다."}
+{"id": "EXE:DATA:03279", "category": "exe_strings", "translation": "청색 팀 이름을 정합니다."}
+{"id": "EXE:DATA:03291", "category": "exe_strings", "translation": "적색 팀 이름을 정합니다."}
+{"id": "EXE:DATA:032A8", "category": "exe_strings", "translation": "네트워크 게임을 시작합니다."}
+{"id": "EXE:DATA:032BC", "category": "exe_strings", "translation": "네트워크 게임을 나갑니다."}
+{"id": "EXE:DATA:032CF", "category": "exe_strings", "translation": "%d점 캐릭터입니다."}
+{"id": "EXE:DATA:032ED", "category": "exe_strings", "translation": "현재 네트워크 게임은 최대 %d점을 허용합니다."}
+{"id": "EXE:DATA:0331E", "category": "exe_strings", "translation": "5000점 캐릭터입니다."}
+{"id": "EXE:DATA:0333E", "category": "exe_strings", "translation": "네트워크용 %d점 캐릭터입니다."}
+{"id": "EXE:DATA:0336D", "category": "exe_strings", "translation": "싱글플레이에서는 최대 5000점까지 허용합니다."}
+{"id": "EXE:DATA:0339A", "category": "exe_strings", "translation": "이 캐릭터는 네트워크용으로 %d점밖에 되지 않습니다."}
+{"id": "EXE:DATA:033CE", "category": "exe_strings", "translation": "그래도 원한다면 사용할 수 있습니다."}
+{"id": "EXE:DATA:033F6", "category": "exe_strings", "translation": "게임을 선택하지 않았습니다."}
+{"id": "EXE:DATA:03416", "category": "exe_strings", "translation": "게임 선택"}
+{"id": "EXE:DATA:03422", "category": "exe_strings", "translation": "현재 열린 게임이 없습니다."}
+{"id": "EXE:DATA:03449", "category": "exe_strings", "translation": "레벨을 선택하지 않았습니다."}
+{"id": "EXE:DATA:0346A", "category": "exe_strings", "translation": "플레이할 레벨 선택"}
+{"id": "EXE:DATA:03484", "category": "exe_strings", "translation": "게임 이름을 정해야 합니다."}
+{"id": "EXE:DATA:034AA", "category": "exe_strings", "translation": "[ 이름 입력 ]"}
+{"id": "EXE:DATA:034BB", "category": "exe_strings", "translation": "[ 암호 없음 ]"}
+{"id": "EXE:DATA:034CB", "category": "exe_strings", "translation": "이 게임에 접속하지 못했습니다."}
+{"id": "EXE:DATA:034EA", "category": "exe_strings", "translation": "가능한 원인은 잘못된 암호,"}
+{"id": "EXE:DATA:0350A", "category": "exe_strings", "translation": "꽉 찬 게임 또는 비정상 게임입니다."}
+{"id": "EXE:DATA:0352C", "category": "exe_strings", "translation": "다른 게임을 골라"}
+{"id": "EXE:DATA:0354D", "category": "exe_strings", "translation": "다시 시도하세요."}
+{"id": "EXE:DATA:03567", "category": "exe_strings", "translation": " 팀전"}
+{"id": "EXE:DATA:0356D", "category": "exe_strings", "translation": " 협동"}
+{"id": "EXE:DATA:03573", "category": "exe_strings", "translation": "%s, %d점"}
+{"id": "EXE:DATA:03581", "category": "exe_strings", "translation": "당신의 플레이어가 아닙니다!"}
+{"id": "EXE:DATA:0359A", "category": "exe_strings", "translation": "적색 팀으로 옮겼습니다."}
+{"id": "EXE:DATA:035C2", "category": "exe_strings", "translation": "청색 팀으로 옮겼습니다."}
+{"id": "EXE:DATA:035EB", "category": "exe_strings", "translation": "멀티플레이에서는 주민과 대화할 수 없습니다."}
+{"id": "EXE:DATA:03619", "category": "exe_strings", "translation": "이 플레이어의 시점을 봅니다."}
+{"id": "EXE:DATA:03634", "category": "exe_strings", "translation": "네트워크 게임으로 돌아갑니다."}
+{"id": "EXE:DATA:0364C", "category": "exe_strings", "translation": "순간이동 장치의 반대쪽이 막혀 있습니다!"}
+{"id": "EXE:DATA:03679", "category": "exe_strings", "translation": "소환에 응하는 괴물이 없습니다..."}
+{"id": "EXE:DATA:0369A", "category": "exe_strings", "translation": "다른 플레이어가 레벨을 마치기를 기다립니다..."}
+{"id": "EXE:DATA:036C4", "category": "exe_strings", "translation": "당신의 플레이어입니다."}
+{"id": "EXE:DATA:036DD", "category": "exe_strings", "translation": "데스매치 모드에서는 할 수 없습니다!"}
+{"id": "EXE:DATA:036FC", "category": "exe_strings", "translation": "적을 엿볼 수 없습니다!"}
+{"id": "EXE:DATA:03715", "category": "exe_strings", "translation": "마법"}
+{"id": "EXE:DATA:0371B", "category": "exe_strings", "translation": "화염"}
+{"id": "EXE:DATA:03720", "category": "exe_strings", "translation": "냉기"}
+{"id": "EXE:DATA:03725", "category": "exe_strings", "translation": "전격"}
+{"id": "EXE:DATA:0372B", "category": "exe_strings", "translation": "독"}
+{"id": "EXE:DATA:03732", "category": "exe_strings", "translation": "클릭하지 말고 F1부터 F8 중 원하는 키를 누르세요."}
+{"id": "EXE:DATA:0376D", "category": "exe_strings", "translation": "점수가 부족합니다."}
+{"id": "EXE:DATA:0378C", "category": "exe_strings", "translation": "수중 호흡 능력을 얻었습니다."}
+{"id": "EXE:DATA:037B2", "category": "exe_strings", "translation": "물약을 마십니다."}
+{"id": "EXE:DATA:037C8", "category": "exe_strings", "translation": "%d레벨 캐릭터를 고르세요."}
+{"id": "EXE:DATA:037E8", "category": "exe_strings", "translation": "기존의 %d레벨 캐릭터를 골라야 합니다!"}
+{"id": "EXE:DATA:03818", "category": "exe_strings", "translation": "기존의 %d레벨 캐릭터가 없습니다!"}
+{"id": "EXE:DATA:03849", "category": "exe_strings", "translation": "이 지도에는 네트워크 시작 지점이 없습니다!"}
+{"id": "EXE:DATA:03870", "category": "exe_strings", "translation": "[[[ 오류 ]]]"}
+{"id": "EXE:DATA:0387E", "category": "exe_strings", "translation": "게임 참가 중"}
+{"id": "EXE:DATA:0388B", "category": "exe_strings", "translation": "이름 선택 중"}
+{"id": "EXE:DATA:03898", "category": "exe_strings", "translation": "성별 선택 중"}
+{"id": "EXE:DATA:038A7", "category": "exe_strings", "translation": "종족 선택 중"}
+{"id": "EXE:DATA:038B4", "category": "exe_strings", "translation": "얼굴 생성 중"}
+{"id": "EXE:DATA:038C2", "category": "exe_strings", "translation": "직업 선택 중"}
+{"id": "EXE:DATA:038D0", "category": "exe_strings", "translation": "직업 수정 중"}
+{"id": "EXE:DATA:038E0", "category": "exe_strings", "translation": "게임 불러오는 중"}
+{"id": "EXE:DATA:038ED", "category": "exe_strings", "translation": "대화 중"}
+{"id": "EXE:DATA:038F6", "category": "exe_strings", "translation": "돌아가는 중"}
+{"id": "EXE:DATA:03901", "category": "exe_strings", "translation": "준비 완료"}
+{"id": "EXE:DATA:03907", "category": "exe_strings", "translation": "사망"}
+{"id": "EXE:DATA:0390C", "category": "exe_strings", "translation": "완료"}
+{"id": "EXE:DATA:03915", "category": "exe_strings", "translation": "%s 사망!"}
+{"id": "EXE:DATA:03928", "category": "exe_strings", "translation": "당신"}
+{"id": "EXE:DATA:0392C", "category": "exe_strings", "translation": "%s: %s의 몰락에 승리의 함성을 지릅니다..."}
+{"id": "EXE:DATA:03951", "category": "exe_strings", "translation": "%s: %s에게 무자비한 공격을 가합니다..."}
+{"id": "EXE:DATA:03972", "category": "exe_strings", "translation": "%s: %s를 처치했습니다..."}
+{"id": "EXE:DATA:03986", "category": "exe_strings", "translation": "%s: %s를 갈기갈기 찢습니다..."}
+{"id": "EXE:DATA:039AA", "category": "exe_strings", "translation": "%s: %s를 흔적도 없이 없앱니다..."}
+{"id": "EXE:DATA:039CD", "category": "exe_strings", "translation": "%s: %s를 무자비하게 처치합니다..."}
+{"id": "EXE:DATA:039E8", "category": "exe_strings", "translation": "%s: %s를 처치했습니다..."}
+{"id": "EXE:DATA:039FB", "category": "exe_strings", "translation": "%s: %s의 목숨을 날려 버립니다..."}
+{"id": "EXE:DATA:03A1B", "category": "exe_strings", "translation": "%s를 처치했습니다..."}
+{"id": "EXE:DATA:03A32", "category": "exe_strings", "translation": "%s: 어리둥절한 눈으로 당신을 바라보다 죽습니다..."}
+{"id": "EXE:DATA:03A60", "category": "exe_strings", "translation": "%s를 쓰러뜨리고 승리의 함성을 지릅니다..."}
+{"id": "EXE:DATA:03A83", "category": "exe_strings", "translation": "죽음의 경련을 일으키는 %s를 조롱합니다..."}
+{"id": "EXE:DATA:03AAE", "category": "exe_strings", "translation": "%s의 비명에 피가 얼어붙는 듯합니다..."}
+{"id": "EXE:DATA:03ADC", "category": "exe_strings", "translation": "%s의 울부짖음 뒤로 몸이 바닥에 쓰러지는 소리가 납니다..."}
+{"id": "EXE:DATA:03B11", "category": "exe_strings", "translation": "%s의 광기 어린 웃음과 피에 질식하는 소리가 들립니다..."}
+{"id": "EXE:DATA:03B49", "category": "exe_strings", "translation": "%s가 끔찍하게 죽는 소리가 들립니다..."}
+{"id": "EXE:DATA:03B76", "category": "exe_strings", "translation": "네트워크: 게임 상태가 불안정해졌습니다!"}
+{"id": "EXE:DATA:03B9F", "category": "exe_strings", "translation": "%s: %s 획득..."}
+{"id": "EXE:DATA:03BAE", "category": "exe_strings", "translation": "%s: %s 버림..."}
+{"id": "EXE:DATA:03BBD", "category": "exe_strings", "translation": "%s: 레벨을 마쳤습니다!"}
+{"id": "EXE:DATA:03BD8", "category": "exe_strings", "translation": "%s: 게임에서 추방되었습니다..."}
+{"id": "EXE:DATA:03BFC", "category": "exe_strings", "translation": "알 수 없는 사망 플레이어가 추방되었습니다..."}
+{"id": "EXE:DATA:03C26", "category": "exe_strings", "translation": "플레이어가 다시 접속했습니다..."}
+{"id": "EXE:DATA:03C42", "category": "exe_strings", "translation": "%s: 게임을 떠났습니다..."}
+{"id": "EXE:DATA:03C5A", "category": "exe_strings", "translation": "레벨 1:"}
+{"id": "EXE:DATA:03C63", "category": "exe_strings", "translation": "레벨 2:"}
+{"id": "EXE:DATA:03C6C", "category": "exe_strings", "translation": "레벨 3:"}
+{"id": "EXE:DATA:03C75", "category": "exe_strings", "translation": "레벨 4:"}
+{"id": "EXE:DATA:03C7E", "category": "exe_strings", "translation": "레벨 5:"}
+{"id": "EXE:DATA:03C87", "category": "exe_strings", "translation": "레벨 6:"}
+{"id": "EXE:DATA:03C90", "category": "exe_strings", "translation": "레벨 7:"}
+{"id": "EXE:DATA:03C99", "category": "exe_strings", "translation": "데스매치 1:"}
+{"id": "EXE:DATA:03CA2", "category": "exe_strings", "translation": "데스매치 2:"}
+{"id": "EXE:DATA:03CAB", "category": "exe_strings", "translation": "데스매치 3:"}
+{"id": "EXE:DATA:03CB4", "category": "exe_strings", "translation": "데스매치 4:"}
+{"id": "EXE:DATA:03CBD", "category": "exe_strings", "translation": "당신보다 먼저 누군가 그 아이템을 가져갔습니다..."}
+{"id": "EXE:DATA:03CF1", "category": "exe_strings", "translation": "배틀스파이어를 되찾은 이야기가 떠오른다."}
+{"id": "EXE:DATA:03D17", "category": "exe_strings", "translation": "오래전 늙은 키메르의 아들이"}
+{"id": "EXE:DATA:03D43", "category": "exe_strings", "translation": "내게 들려주었던 이야기다."}
+{"id": "EXE:DATA:03D6D", "category": "exe_strings", "translation": "데이드라 군주 메이룬스 데이건의 군단이"}
+{"id": "EXE:DATA:03D9B", "category": "exe_strings", "translation": "배신자의 도움을 받아 첨탑을 점령한 이야기."}
+{"id": "EXE:DATA:03DC0", "category": "exe_strings", "translation": "이름 없는 젊은 영웅이"}
+{"id": "EXE:DATA:03DE6", "category": "exe_strings", "translation": "배틀스파이어에 발을 들인 이야기."}
+{"id": "EXE:DATA:03E0E", "category": "exe_strings", "translation": "그곳은 황제의 근위대인 그림자 군단의"}
+{"id": "EXE:DATA:03E3A", "category": "exe_strings", "translation": "훈련과 시험을 위한 시설이었으나,"}
+{"id": "EXE:DATA:03E67", "category": "exe_strings", "translation": "그의 시험은 예상보다 훨씬 혹독했다."}
+{"id": "EXE:DATA:03E83", "category": "exe_strings", "translation": "그저 자신의 솜씨를 가늠할"}
+{"id": "EXE:DATA:03EAA", "category": "exe_strings", "translation": "무해한 시험이라 생각한 그는"}
+{"id": "EXE:DATA:03ED4", "category": "exe_strings", "translation": "빛기둥을 통해 첨탑에 들어섰다."}
+{"id": "EXE:DATA:03F01", "category": "exe_strings", "translation": "그곳은 군단의 배신과 제국의 대역적"}
+{"id": "EXE:DATA:03F2F", "category": "exe_strings", "translation": "자가르 탄의 간계가 빚어낸 지옥이었다."}
+{"id": "EXE:DATA:03F5B", "category": "exe_strings", "translation": "그렇게 우리의 이야기가 시작된다..."}
+{"id": "EXE:DATA:03F76", "category": "exe_strings", "translation": "영체 상태에서는 주문을 시전할 수 없습니다."}
+{"id": "EXE:DATA:03F9D", "category": "exe_strings", "translation": "요구에 따라 무기를 바닥에 내려놓습니다."}
+{"id": "EXE:DATA:03FCC", "category": "exe_strings", "translation": "체력을 %d 회복했습니다. 현재 체력 %d / %d."}
+{"id": "EXE:DATA:03FF6", "category": "exe_strings", "translation": "피해:"}
+{"id": "EXE:DATA:03FFE", "category": "exe_strings", "translation": "상태:"}
+{"id": "EXE:DATA:04009", "category": "exe_strings", "translation": "수량:"}
+{"id": "EXE:DATA:04011", "category": "exe_strings", "translation": "비용"}
+{"id": "EXE:DATA:04016", "category": "exe_strings", "translation": "배정 없음."}
+{"id": "EXE:DATA:04028", "category": "exe_strings", "translation": "%d레벨 직업을 저장하는 중..."}
+{"id": "EXE:DATA:0404A", "category": "exe_strings", "translation": "%s: 배의 조종권을 잡았습니다."}
+{"id": "EXE:DATA:0406A", "category": "exe_strings", "translation": "배의 조종권을 잡았습니다."}
+{"id": "EXE:DATA:0408C", "category": "exe_strings", "translation": "누군가 이미 배를 조종하고 있습니다."}
+{"id": "EXE:DATA:040B5", "category": "exe_strings", "translation": "무게:"}
+{"id": "EXE:DATA:040BD", "category": "exe_strings", "translation": "이미 가지고 있는 아이템과 합칩니다."}
+{"id": "EXE:DATA:040EF", "category": "exe_strings", "translation": "%s 기다리는 중...%d"}
+{"id": "EXE:DATA:04103", "category": "exe_strings", "translation": "당신의 생명의 피가 인장의 힘을 무효화합니다."}
+{"id": "EXE:DATA:04133", "category": "exe_strings", "translation": "주문 사거리 안에 인장이 없습니다."}
+{"id": "EXE:DATA:04163", "category": "exe_strings", "translation": "지난 인장 해제의 피로가 아직 가시지 않았습니다."}
+{"id": "EXE:DATA:04198", "category": "exe_strings", "translation": "기술은 다음 능력치보다 높일 수 없습니다:"}
+{"id": "EXE:DATA:041C3", "category": "exe_strings", "translation": "%s가 보입니다."}
+{"id": "EXE:DATA:041CF", "category": "exe_strings", "translation": "힘"}
+{"id": "EXE:DATA:041D8", "category": "exe_strings", "translation": "지능"}
+{"id": "EXE:DATA:041E5", "category": "exe_strings", "translation": "의지"}
+{"id": "EXE:DATA:041EF", "category": "exe_strings", "translation": "민첩"}
+{"id": "EXE:DATA:041F7", "category": "exe_strings", "translation": "지구력"}
+{"id": "EXE:DATA:04201", "category": "exe_strings", "translation": "성격"}
+{"id": "EXE:DATA:0420D", "category": "exe_strings", "translation": "속도"}
+{"id": "EXE:DATA:04213", "category": "exe_strings", "translation": "행운"}
+{"id": "EXE:DATA:04218", "category": "exe_strings", "translation": "힘"}
+{"id": "EXE:DATA:0421C", "category": "exe_strings", "translation": "지능"}
+{"id": "EXE:DATA:04220", "category": "exe_strings", "translation": "의지"}
+{"id": "EXE:DATA:04224", "category": "exe_strings", "translation": "민첩"}
+{"id": "EXE:DATA:04228", "category": "exe_strings", "translation": "성격"}
+{"id": "EXE:DATA:0422C", "category": "exe_strings", "translation": "속도"}
+{"id": "EXE:DATA:04230", "category": "exe_strings", "translation": "행운"}
+{"id": "EXE:DATA:04234", "category": "exe_strings", "translation": "이 능력치에 의존하는 가장 높은 기술보다 낮출 수 없습니다."}
+{"id": "EXE:DATA:04270", "category": "exe_strings", "translation": "하드 디스크 여유 공간이 부족합니다."}
+{"id": "EXE:DATA:042AF", "category": "exe_strings", "translation": "40MB 이상을 확보한 뒤 다시 시도하세요."}
+{"id": "EXE:DATA:042E3", "category": "exe_strings", "translation": "마우스 드라이버를 찾지 못했습니다."}
+{"id": "EXE:DATA:04323", "category": "exe_strings", "translation": "마이크로소프트 호환 드라이버를 설치하고 다시 시도하세요."}
+{"id": "EXE:DATA:04356", "category": "exe_strings", "translation": "데스매치 시간 제한을 켭니다."}
+{"id": "EXE:DATA:04377", "category": "exe_strings", "translation": "데스매치 시간 제한을 끕니다."}
+{"id": "EXE:DATA:04399", "category": "exe_strings", "translation": "데스매치 점수 제한을 켭니다."}
+{"id": "EXE:DATA:043BB", "category": "exe_strings", "translation": "데스매치 점수 제한을 끕니다."}
+{"id": "EXE:DATA:043DE", "category": "exe_strings", "translation": "데스매치 처치 수 제한을 켭니다."}
+{"id": "EXE:DATA:043FF", "category": "exe_strings", "translation": "데스매치 처치 수 제한을 끕니다."}
+{"id": "EXE:DATA:04421", "category": "exe_strings", "translation": "시간 제한을 분 단위로 입력합니다."}
+{"id": "EXE:DATA:0444C", "category": "exe_strings", "translation": "점수 제한을 입력합니다."}
+{"id": "EXE:DATA:0446D", "category": "exe_strings", "translation": "처치 수 제한을 입력합니다."}
+{"id": "EXE:DATA:0448D", "category": "exe_strings", "translation": "다음 메뉴로 갑니다."}
+{"id": "EXE:DATA:044A4", "category": "exe_strings", "translation": "이전 메뉴로 돌아갑니다."}
+{"id": "EXE:DATA:044BE", "category": "exe_strings", "translation": "팀 이름을 입력한 뒤 Enter를 누르세요."}
+{"id": "EXE:DATA:044E8", "category": "exe_strings", "translation": "%d분 남았습니다."}
+{"id": "EXE:DATA:04508", "category": "exe_strings", "translation": "혼란에 빠졌습니다..."}
+{"id": "EXE:DATA:0451C", "category": "exe_strings", "translation": "순간이동 주문 실패..."}
+{"id": "EXE:DATA:04534", "category": "exe_strings", "translation": "%s: 적색 깃발을 잃었습니다!"}
+{"id": "EXE:DATA:0454E", "category": "exe_strings", "translation": "%s: 청색 깃발을 잃었습니다!"}
+{"id": "EXE:DATA:04569", "category": "exe_strings", "translation": "1분 남았습니다!"}
+{"id": "EXE:DATA:0457A", "category": "exe_strings", "translation": "청색 깃발이 자동으로 기지에 돌아갔습니다."}
+{"id": "EXE:DATA:045B5", "category": "exe_strings", "translation": "적색 깃발이 자동으로 기지에 돌아갔습니다."}
+{"id": "EXE:DATA:045EF", "category": "exe_strings", "translation": "%s: 청색 깃발을 훔쳤습니다!"}
+{"id": "EXE:DATA:0460C", "category": "exe_strings", "translation": "%s: 적색 깃발을 훔쳤습니다!"}
+{"id": "EXE:DATA:04628", "category": "exe_strings", "translation": "%s: 청색 깃발을 되찾았습니다!"}
+{"id": "EXE:DATA:04647", "category": "exe_strings", "translation": "%s: 적색 깃발을 되찾았습니다!"}
+{"id": "EXE:DATA:04665", "category": "exe_strings", "translation": "%s: 깃발을 탈취했습니다!"}
+{"id": "EXE:DATA:04680", "category": "exe_strings", "translation": "%s: 우리 깃발을 갖고 있습니다!"}
+{"id": "EXE:DATA:04692", "category": "exe_strings", "translation": "영체 상태에서는 깃발을 집을 수 없습니다."}
+{"id": "EXE:DATA:046BE", "category": "exe_strings", "translation": "적색 깃발을 되찾았습니다!"}
+{"id": "EXE:DATA:046DE", "category": "exe_strings", "translation": "당신보다 먼저 다른 사람이 깃발을 집었습니다."}
+{"id": "EXE:DATA:0470C", "category": "exe_strings", "translation": "우리 깃발입니다. 무사합니다."}
+{"id": "EXE:DATA:04733", "category": "exe_strings", "translation": "적색 깃발을 얻었습니다!"}
+{"id": "EXE:DATA:0474A", "category": "exe_strings", "translation": "청색 깃발을 되찾았습니다!"}
+{"id": "EXE:DATA:0476B", "category": "exe_strings", "translation": "청색 깃발을 얻었습니다!"}
+{"id": "EXE:DATA:04783", "category": "exe_strings", "translation": "우리 깃발을 도난당해 적의 깃발을 탈취할 수 없습니다!"}
+{"id": "EXE:DATA:047BF", "category": "exe_strings", "translation": "적색 깃발을 탈취했습니다!"}
+{"id": "EXE:DATA:047DF", "category": "exe_strings", "translation": "청색 깃발을 탈취했습니다!"}
+{"id": "EXE:DATA:04800", "category": "exe_strings", "translation": "적색 깃발을 잃었습니다!"}
+{"id": "EXE:DATA:0481C", "category": "exe_strings", "translation": "청색 깃발을 잃었습니다!"}
+{"id": "EXE:DATA:04839", "category": "exe_strings", "translation": "게임은 최대 %d분 동안 진행됩니다."}
+{"id": "EXE:DATA:04864", "category": "exe_strings", "translation": "누군가 %d점을 얻으면 게임이 끝납니다."}
+{"id": "EXE:DATA:0488E", "category": "exe_strings", "translation": "누군가 %d명 이상을 처치하면 게임이 끝납니다."}
+{"id": "EXE:DATA:048BE", "category": "exe_strings", "translation": "제한 없이 모두가 싸우는 게임입니다."}
+{"id": "EXE:DATA:048E9", "category": "exe_strings", "translation": "톱니바퀴 다섯 개를 찾아 기계에 넣고,"}
+{"id": "EXE:DATA:04915", "category": "exe_strings", "translation": "모든 닻을 닫으면 관문이 열립니다."}
+{"id": "EXE:DATA:04944", "category": "exe_strings", "translation": "공허 길잡이 네 개를 찾아 기계에 넣으면"}
+{"id": "EXE:DATA:04976", "category": "exe_strings", "translation": "관문이 열립니다."}
+{"id": "EXE:DATA:0498F", "category": "exe_strings", "translation": "막대 세 개를 찾아 영묘 꼭대기에 놓고,"}
+{"id": "EXE:DATA:049C5", "category": "exe_strings", "translation": "순간이동 문을 통해 레벨을 떠나세요."}
+{"id": "EXE:DATA:049F1", "category": "exe_strings", "translation": "레버 네 개를 작동시키고"}
+{"id": "EXE:DATA:04A17", "category": "exe_strings", "translation": "순간이동 발판으로 떠나세요."}
+{"id": "EXE:DATA:04A2E", "category": "exe_strings", "translation": "관문 열쇠 여섯 개를 찾은 뒤"}
+{"id": "EXE:DATA:04A58", "category": "exe_strings", "translation": "신전 순간이동 장치로 나가세요."}
+{"id": "EXE:DATA:04A6F", "category": "exe_strings", "translation": "관문 열쇠 세 개를 찾은 뒤"}
+{"id": "EXE:DATA:04A94", "category": "exe_strings", "translation": "순간이동 발판으로 떠나세요."}
+{"id": "EXE:DATA:04AB3", "category": "exe_strings", "translation": "이 레벨은 절대 못 끝낼걸, 하하하하하!"}
+{"id": "EXE:DATA:04ADF", "category": "exe_strings", "translation": "이 자루는 비어 있습니다."}
+{"id": "EXE:DATA:04AFE", "category": "exe_strings", "translation": "이 레벨에는 괴물이 전혀 없습니다."}
+{"id": "EXE:DATA:04B2A", "category": "exe_strings", "translation": "배틀스파이어 제작진이 인사드립니다!"}
+{"id": "EXE:DATA:04B4F", "category": "exe_strings", "translation": "주문이 불발되었습니다..."}
+{"id": "EXE:DATA:04B60", "category": "exe_strings", "translation": "스크린샷 저장 오류..."}
+{"id": "EXE:DATA:04B7C", "category": "exe_strings", "translation": "청색 팀: %s"}
+{"id": "EXE:DATA:04B8A", "category": "exe_strings", "translation": "적색 팀: %s"}
+{"id": "EXE:DATA:04B97", "category": "exe_strings", "translation": "고인의 명복을 - %s"}
+{"id": "EXE:DATA:04BA0", "category": "exe_strings", "translation": "승자: %s"}
+{"id": "EXE:DATA:04BAB", "category": "exe_strings", "translation": "두 팀이 비겼습니다!"}
+{"id": "EXE:DATA:04BC1", "category": "exe_strings", "translation": "%s: %d 대 %d 승리!"}
+{"id": "EXE:DATA:04BD3", "category": "exe_strings", "translation": "레벨 완료."}
+{"id": "EXE:DATA:04BE3", "category": "exe_strings", "translation": "이곳은 너무 붐벼 괴물이 더 들어올 수 없습니다!"}
+{"id": "EXE:DATA:04C10", "category": "exe_strings", "translation": "메뉴가 너무 많이 추가되었습니다."}
+{"id": "EXE:DATA:04D4E", "category": "exe_strings", "translation": "플레이어: %s"}
+{"id": "EXE:DATA:05A48", "category": "exe_strings", "translation": "이곳에 지연 피해 주문 함정을 설치했습니다."}
+{"id": "EXE:DATA:05A75", "category": "exe_strings", "translation": "깃발을 든 동안에는 영체화할 수 없습니다."}
+{"id": "EXE:DATA:05DB2", "category": "exe_strings", "translation": "잘못된 저장 게임 형식입니다."}
+{"id": "EXE:DATA:05F0B", "category": "exe_strings", "translation": "로컬 IPX 네트워크를 초기화하지 못했습니다!"}
+{"id": "EXE:DATA:05F36", "category": "exe_strings", "translation": "인터넷 게임을 하려면 먼저 Mplayer를 실행하세요."}
+{"id": "EXE:DATA:06276", "category": "exe_strings", "translation": "지능 x 1"}
+{"id": "EXE:DATA:0627E", "category": "exe_strings", "translation": "지능 x 1.5"}
+{"id": "EXE:DATA:06288", "category": "exe_strings", "translation": "지능 x 2"}
+{"id": "EXE:DATA:06290", "category": "exe_strings", "translation": "지능 x 3"}
+{"id": "EXE:DATA:06448", "category": "exe_strings", "translation": "배틀스파이어 만세!"}
+{"id": "EXE:DATA:0648F", "category": "exe_strings", "translation": "1997년 10월"}
+{"id": "EXE:DATA:06CAD", "category": "exe_strings", "translation": "적색 팀"}
+{"id": "EXE:DATA:06CBA", "category": "exe_strings", "translation": "청색 팀"}
+{"id": "EXE:DATA:06D18", "category": "exe_strings", "translation": "Mplayer 게임"}
+{"id": "EXE:DATA:06D42", "category": "exe_strings", "translation": "게임 정보 대기 시간이 초과되었습니다!"}
+{"id": "EXE:DATA:06D74", "category": "exe_strings", "translation": "방장의 게임 참가 대기 시간이 초과되었습니다!"}
+{"id": "EXE:DATA:06DB3", "category": "exe_strings", "translation": "점수"}
+{"id": "EXE:DATA:06DB9", "category": "exe_strings", "translation": "괴물 처치"}
+{"id": "EXE:DATA:06DC7", "category": "exe_strings", "translation": "플레이어 처치"}
+{"id": "EXE:DATA:06F75", "category": "exe_strings", "translation": "향상"}
+{"id": "EXE:DATA:06F7E", "category": "exe_strings", "translation": "악화"}
+{"id": "EXE:DATA:06F88", "category": "exe_strings", "translation": "증가"}
+{"id": "EXE:DATA:06F8D", "category": "exe_strings", "translation": "감소"}
+{"id": "EXE:DATA:06FFC", "category": "exe_strings", "translation": "%s: 청색 깃발을 훔쳤습니다!"}
+{"id": "EXE:DATA:07019", "category": "exe_strings", "translation": "%s: 적색 깃발을 훔쳤습니다!"}
+{"id": "EXE:DATA:07035", "category": "exe_strings", "translation": "%s: 청색 깃발을 되찾았습니다!"}
+{"id": "EXE:DATA:07054", "category": "exe_strings", "translation": "%s: 적색 깃발을 되찾았습니다!"}
+{"id": "EXE:DATA:070EC", "category": "exe_strings", "translation": "괴물이 너무 많습니다!"}
+{"id": "EXE:INLINE:0A614", "category": "inline_names", "translation": "괴물 소환"}
+{"id": "EXE:INLINE:0A68B", "category": "inline_names", "translation": "주문 탐지"}
+{"id": "EXE:INLINE:0A702", "category": "inline_names", "translation": "적 탐지"}
+{"id": "EXE:INLINE:0A779", "category": "inline_names", "translation": "투명 탐지"}
+{"id": "EXE:INLINE:0A7F0", "category": "inline_names", "translation": "투명"}
+{"id": "EXE:INLINE:0A867", "category": "inline_names", "translation": "그림자"}
+{"id": "EXE:INLINE:0A8DE", "category": "inline_names", "translation": "카멜레온"}
+{"id": "EXE:INLINE:0A955", "category": "inline_names", "translation": "느린 낙하"}
+{"id": "EXE:INLINE:0A9CC", "category": "inline_names", "translation": "지속 피해"}
+{"id": "EXE:INLINE:0AA43", "category": "inline_names", "translation": "독"}
+{"id": "EXE:INLINE:0AABA", "category": "inline_names", "translation": "혼란"}
+{"id": "EXE:INLINE:0AB31", "category": "inline_names", "translation": "흡혈"}
+{"id": "EXE:INLINE:0ABA8", "category": "inline_names", "translation": "지연 피해"}
+{"id": "EXE:INLINE:0AC1F", "category": "inline_names", "translation": "마법 해제"}
+{"id": "EXE:INLINE:0AC96", "category": "inline_names", "translation": "주문 반사"}
+{"id": "EXE:INLINE:0AD0D", "category": "inline_names", "translation": "주문 저항"}
+{"id": "EXE:INLINE:0AD84", "category": "inline_names", "translation": "주문 흡수"}
+{"id": "EXE:INLINE:0ADFB", "category": "inline_names", "translation": "피해"}
+{"id": "EXE:INLINE:0AE72", "category": "inline_names", "translation": "화염 방어막"}
+{"id": "EXE:INLINE:0AEE9", "category": "inline_names", "translation": "독 치료"}
+{"id": "EXE:INLINE:0AF60", "category": "inline_names", "translation": "체력 회복"}
+{"id": "EXE:INLINE:0AFD7", "category": "inline_names", "translation": "도약"}
+{"id": "EXE:INLINE:0B04E", "category": "inline_names", "translation": "달리기"}
+{"id": "EXE:INLINE:0B0C5", "category": "inline_names", "translation": "영체화"}
+{"id": "EXE:INLINE:0B13C", "category": "inline_names", "translation": "순간이동"}
+{"id": "EXE:INLINE:0B1B3", "category": "inline_names", "translation": "방어막"}
+{"id": "EXE:INLINE:0B22A", "category": "inline_names", "translation": "저항"}
+{"id": "EXE:INLINE:0B2A1", "category": "inline_names", "translation": "감속"}
+{"id": "EXE:INLINE:0B318", "category": "inline_names", "translation": "가속"}
+{"id": "EXE:INLINE:0B38F", "category": "inline_names", "translation": "힘"}
+{"id": "EXE:INLINE:0B406", "category": "inline_names", "translation": "인장 해제"}
+{"id": "EXE:INLINE:0B5FD", "category": "inline_names", "translation": "단검"}
+{"id": "EXE:INLINE:0B8EF", "category": "inline_names", "translation": "소검"}
+{"id": "EXE:INLINE:0BBE1", "category": "inline_names", "translation": "장검"}
+{"id": "EXE:INLINE:0BED3", "category": "inline_names", "translation": "브로드소드"}
+{"id": "EXE:INLINE:0C1C5", "category": "inline_names", "translation": "클레이모어"}
+{"id": "EXE:INLINE:0C4B7", "category": "inline_names", "translation": "전투도끼"}
+{"id": "EXE:INLINE:0C7A9", "category": "inline_names", "translation": "전쟁도끼"}
+{"id": "EXE:INLINE:0CA9B", "category": "inline_names", "translation": "철퇴"}
+{"id": "EXE:INLINE:0CD8D", "category": "inline_names", "translation": "단궁"}
+{"id": "EXE:INLINE:0D07F", "category": "inline_names", "translation": "장궁"}
+{"id": "EXE:INLINE:0D371", "category": "inline_names", "translation": "석궁"}
+{"id": "EXE:INLINE:0D663", "category": "inline_names", "translation": "투창"}
+{"id": "EXE:INLINE:0D955", "category": "inline_names", "translation": "투석구"}
+{"id": "EXE:INLINE:0DC47", "category": "inline_names", "translation": "지팡이"}
+{"id": "EXE:INLINE:0DF39", "category": "inline_names", "translation": "창"}
+{"id": "EXE:INLINE:0E22B", "category": "inline_names", "translation": "물약"}
+{"id": "EXE:INLINE:0E51D", "category": "inline_names", "translation": "자루"}
+{"id": "EXE:INLINE:0E80F", "category": "inline_names", "translation": "큰 상자"}
+{"id": "EXE:INLINE:0EB01", "category": "inline_names", "translation": "작은 상자"}
+{"id": "EXE:INLINE:0EDF3", "category": "inline_names", "translation": "의복"}
+{"id": "EXE:INLINE:0F0E5", "category": "inline_names", "translation": "보석"}
+{"id": "EXE:INLINE:0F3D7", "category": "inline_names", "translation": "두루마리"}
+{"id": "EXE:INLINE:0F6C9", "category": "inline_names", "translation": "화살"}
+{"id": "EXE:INLINE:0F9BB", "category": "inline_names", "translation": "등불"}
+{"id": "EXE:INLINE:0FCAD", "category": "inline_names", "translation": "투구"}
+{"id": "EXE:INLINE:0FF9F", "category": "inline_names", "translation": "흉갑"}
+{"id": "EXE:INLINE:10291", "category": "inline_names", "translation": "견갑"}
+{"id": "EXE:INLINE:10583", "category": "inline_names", "translation": "경갑"}
+{"id": "EXE:INLINE:10875", "category": "inline_names", "translation": "장화"}
+{"id": "EXE:INLINE:10B67", "category": "inline_names", "translation": "건틀릿"}
+{"id": "EXE:INLINE:10E59", "category": "inline_names", "translation": "공허 길잡이"}
+{"id": "EXE:INLINE:1114B", "category": "inline_names", "translation": "인장 부적"}
+{"id": "EXE:INLINE:1143D", "category": "inline_names", "translation": "책"}
+{"id": "EXE:INLINE:1172F", "category": "inline_names", "translation": "금화"}
+{"id": "EXE:INLINE:11A21", "category": "inline_names", "translation": "열쇠"}
+{"id": "EXE:INLINE:11D13", "category": "inline_names", "translation": "관문 열쇠"}
+{"id": "EXE:INLINE:12005", "category": "inline_names", "translation": "톱니바퀴"}
+{"id": "EXE:INLINE:122F7", "category": "inline_names", "translation": "막대"}
+{"id": "EXE:INLINE:125E9", "category": "inline_names", "translation": "관문 열쇠"}
+{"id": "EXE:INLINE:128DB", "category": "inline_names", "translation": "양피지"}
+{"id": "EXE:INLINE:12BCD", "category": "inline_names", "translation": "창 보관함"}
+{"id": "EXE:INLINE:12EBF", "category": "inline_names", "translation": "관문 열쇠"}
+{"id": "EXE:INLINE:131B1", "category": "inline_names", "translation": "회복의 궤짝"}
+{"id": "EXE:INLINE:13559", "category": "inline_names", "translation": "스캠프"}
+{"id": "EXE:INLINE:13627", "category": "inline_names", "translation": "베르마이"}
+{"id": "EXE:INLINE:136F5", "category": "inline_names", "translation": "드레모라"}
+{"id": "EXE:INLINE:137C3", "category": "inline_names", "translation": "거미 데이드라"}
+{"id": "EXE:INLINE:13891", "category": "inline_names", "translation": "해골"}
+{"id": "EXE:INLINE:1395F", "category": "inline_names", "translation": "유령"}
+{"id": "EXE:INLINE:13A2D", "category": "inline_names", "translation": "망령"}
+{"id": "EXE:INLINE:13AFB", "category": "inline_names", "translation": "변형 데이드라"}
+{"id": "EXE:INLINE:13BC9", "category": "inline_names", "translation": "화염 데이드라"}
+{"id": "EXE:INLINE:13C97", "category": "inline_names", "translation": "서리 데이드라"}
+{"id": "EXE:INLINE:13D65", "category": "inline_names", "translation": "허른"}
+{"id": "EXE:INLINE:13E33", "category": "inline_names", "translation": "클랜피어"}
+{"id": "EXE:INLINE:13F01", "category": "inline_names", "translation": "세듀서"}
+{"id": "EXE:INLINE:13FCF", "category": "inline_names", "translation": "어둠의 세듀서"}
+{"id": "EXE:INLINE:1409D", "category": "inline_names", "translation": "데이드라 백작"}
+{"id": "EXE:INLINE:1416B", "category": "inline_names", "translation": "데이드라 군주"}
+{"id": "CLASS000.SCL:443", "category": "classes", "translation": "곡예사"}
+{"id": "CLASS001.SCL:443", "category": "classes", "translation": "전투마법사"}
+{"id": "CLASS002.SCL:443", "category": "classes", "translation": "마검사"}
+{"id": "CLASS003.SCL:443", "category": "classes", "translation": "밤의 칼날"}
+{"id": "CLASS004.SCL:443", "category": "classes", "translation": "궁수"}
+{"id": "CLASS005.SCL:443", "category": "classes", "translation": "암살자"}
+{"id": "CLASS006.SCL:443", "category": "classes", "translation": "야만전사"}
+{"id": "CLASS007.SCL:443", "category": "classes", "translation": "음유시인"}
+{"id": "CLASS008.SCL:443", "category": "classes", "translation": "도둑꾼"}
+{"id": "CLASS009.SCL:443", "category": "classes", "translation": "치유사"}
+{"id": "CLASS010.SCL:443", "category": "classes", "translation": "기사"}
+{"id": "CLASS011.SCL:443", "category": "classes", "translation": "마법사"}
+{"id": "CLASS012.SCL:443", "category": "classes", "translation": "수도승"}
+{"id": "CLASS013.SCL:443", "category": "classes", "translation": "순찰자"}
+{"id": "CLASS014.SCL:443", "category": "classes", "translation": "무법자"}
+{"id": "CLASS015.SCL:443", "category": "classes", "translation": "마술사"}
+{"id": "CLASS016.SCL:443", "category": "classes", "translation": "도둑"}
+{"id": "CLASS017.SCL:443", "category": "classes", "translation": "전사"}
+{"id": "LEVELS.TXT:0", "category": "level_names", "translation": "위어 관문"}
+{"id": "LEVELS.TXT:1", "category": "level_names", "translation": "케이티프"}
+{"id": "LEVELS.TXT:2", "category": "level_names", "translation": "소울 케언"}
+{"id": "LEVELS.TXT:3", "category": "level_names", "translation": "셰이드 페릴러스"}
+{"id": "LEVELS.TXT:4", "category": "level_names", "translation": "황폐의 키메라"}
+{"id": "LEVELS.TXT:5", "category": "level_names", "translation": "혼돈의 원천"}
+{"id": "LEVELS.TXT:6", "category": "level_names", "translation": "메이룬스 데이건"}
+{"id": "LEVELS.TXT:7", "category": "level_names", "translation": "데스매치 1"}
+{"id": "LEVELS.TXT:8", "category": "level_names", "translation": "데스매치 2"}
+{"id": "LEVELS.TXT:9", "category": "level_names", "translation": "데스매치 3"}
+{"id": "LEVELS.TXT:10", "category": "level_names", "translation": "데스매치 4"}
+{"id": "LEVELS.TXT:11", "category": "level_names", "translation": "성 깃발 탈취전 (안개)"}
+{"id": "LEVELS.TXT:12", "category": "level_names", "translation": "성 깃발 탈취전 (밤)"}
+{"id": "LEVELS.TXT:13", "category": "level_names", "translation": "깃발 탈취전 2"}
+{"id": "LEVELS.TXT:14", "category": "level_names", "translation": "데스매치 5"}
+{"id": "LEVELS.TXT:15", "category": "level_names", "translation": "데스매치 6"}
+{"id": "LEVELS.TXT:16", "category": "level_names", "translation": "데스매치 7"}
+{"id": "RSC:113:27", "category": "rsc_placeholder_labels", "translation": "없음!"}
+{"id": "RSC:122:36", "category": "rsc_placeholder_labels", "translation": "없음!"}
+{"id": "RSC:207:52", "category": "rsc_placeholder_labels", "translation": "주문 없음"}
+{"id": "RSC:208:53", "category": "rsc_placeholder_labels", "translation": "주문 없음"}
+{"id": "RSC:224:69", "category": "rsc_placeholder_labels", "translation": "주문 없음"}
+{"id": "RSC:232:77", "category": "rsc_placeholder_labels", "translation": "주문 없음"}
+{"id": "RSC:233:78", "category": "rsc_placeholder_labels", "translation": "주문 없음"}
+{"id": "RSC:234:79", "category": "rsc_placeholder_labels", "translation": "주문 없음"}
+{"id": "RSC:235:80", "category": "rsc_placeholder_labels", "translation": "주문 없음"}
+{"id": "RSC:236:81", "category": "rsc_placeholder_labels", "translation": "주문 없음"}
+{"id": "RSC:237:82", "category": "rsc_placeholder_labels", "translation": "주문 없음"}
+{"id": "RSC:238:83", "category": "rsc_placeholder_labels", "translation": "주문 없음"}
+{"id": "RSC:239:84", "category": "rsc_placeholder_labels", "translation": "주문 없음"}
+{"id": "RSC:307:94", "category": "rsc_placeholder_labels", "translation": "물약 없음"}
+{"id": "RSC:308:95", "category": "rsc_placeholder_labels", "translation": "물약 없음"}
+{"id": "RSC:324:111", "category": "rsc_placeholder_labels", "translation": "물약 없음"}
+{"id": "RSC:329:116", "category": "rsc_placeholder_labels", "translation": "물약 없음"}
+{"id": "RSC:330:117", "category": "rsc_placeholder_labels", "translation": "물약 없음"}
+{"id": "RSC:331:118", "category": "rsc_placeholder_labels", "translation": "물약 없음"}
+{"id": "RSC:332:119", "category": "rsc_placeholder_labels", "translation": "물약 없음"}
+{"id": "RSC:333:120", "category": "rsc_placeholder_labels", "translation": "물약 없음"}
+{"id": "RSC:334:121", "category": "rsc_placeholder_labels", "translation": "물약 없음"}
+{"id": "RSC:335:122", "category": "rsc_placeholder_labels", "translation": "물약 없음"}
+{"id": "RSC:336:123", "category": "rsc_placeholder_labels", "translation": "물약 없음"}
+{"id": "RSC:337:124", "category": "rsc_placeholder_labels", "translation": "물약 없음"}
+{"id": "RSC:338:125", "category": "rsc_placeholder_labels", "translation": "물약 없음"}
+{"id": "RSC:339:126", "category": "rsc_placeholder_labels", "translation": "물약 없음"}
+{"id": "RSC:1085:228", "category": "rsc_placeholder_labels", "translation": "설명 없음"}
+{"id": "RSC:1086:229", "category": "rsc_placeholder_labels", "translation": "설명 없음"}
+{"id": "RSC:1087:230", "category": "rsc_placeholder_labels", "translation": "설명 없음"}
+{"id": "RSC:1088:231", "category": "rsc_placeholder_labels", "translation": "설명 없음"}
+{"id": "RSC:1089:232", "category": "rsc_placeholder_labels", "translation": "설명 없음"}
+{"id": "RSC:1090:233", "category": "rsc_placeholder_labels", "translation": "설명 없음"}
+{"id": "RSC:1091:234", "category": "rsc_placeholder_labels", "translation": "설명 없음"}
+{"id": "RSC:1092:235", "category": "rsc_placeholder_labels", "translation": "설명 없음"}
+{"id": "RSC:1099:242", "category": "rsc_placeholder_labels", "translation": "설명 없음"}
+{"id": "RSC:1101:244", "category": "rsc_placeholder_labels", "translation": "설명 없음"}
+{"id": "RSC:1103:246", "category": "rsc_placeholder_labels", "translation": "설명 없음"}
+{"id": "RSC:1104:247", "category": "rsc_placeholder_labels", "translation": "설명 없음"}
+{"id": "RSC:1105:248", "category": "rsc_placeholder_labels", "translation": "설명 없음"}
+{"id": "RSC:1106:249", "category": "rsc_placeholder_labels", "translation": "설명 없음"}
+{"id": "RSC:1114:257", "category": "rsc_placeholder_labels", "translation": "설명 없음"}
+{"id": "RSC:1115:258", "category": "rsc_placeholder_labels", "translation": "설명 없음"}
+{"id": "RSC:1116:259", "category": "rsc_placeholder_labels", "translation": "설명 없음"}
+{"id": "RSC:1117:260", "category": "rsc_placeholder_labels", "translation": "설명 없음"}
+{"id": "RSC:1118:261", "category": "rsc_placeholder_labels", "translation": "설명 없음"}
+{"id": "RSC:1119:262", "category": "rsc_placeholder_labels", "translation": "설명 없음"}
+{"id": "RSC:1122:265", "category": "rsc_placeholder_labels", "translation": "설명 없음"}
+{"id": "RSC:1123:266", "category": "rsc_placeholder_labels", "translation": "설명 없음"}
+{"id": "RSC:1125:268", "category": "rsc_placeholder_labels", "translation": "설명 없음"}
+{"id": "RSC:1127:270", "category": "rsc_placeholder_labels", "translation": "설명 없음"}
+{"id": "RSC:1132:275", "category": "rsc_placeholder_labels", "translation": "설명 없음"}
+{"id": "RSC:1133:276", "category": "rsc_placeholder_labels", "translation": "설명 없음"}
+{"id": "RSC:1134:277", "category": "rsc_placeholder_labels", "translation": "설명 없음"}
+{"id": "RSC:1135:278", "category": "rsc_placeholder_labels", "translation": "설명 없음"}
+{"id": "RSC:1136:279", "category": "rsc_placeholder_labels", "translation": "설명 없음"}
+{"id": "RSC:1137:280", "category": "rsc_placeholder_labels", "translation": "설명 없음"}
+{"id": "RSC:1141:284", "category": "rsc_placeholder_labels", "translation": "설명 없음"}
+{"id": "RSC:1142:285", "category": "rsc_placeholder_labels", "translation": "설명 없음"}
+{"id": "RSC:1143:286", "category": "rsc_placeholder_labels", "translation": "설명 없음"}
+{"id": "RSC:1144:287", "category": "rsc_placeholder_labels", "translation": "설명 없음"}
+{"id": "RSC:1145:288", "category": "rsc_placeholder_labels", "translation": "설명 없음"}
+{"id": "RSC:1146:289", "category": "rsc_placeholder_labels", "translation": "설명 없음"}
+{"id": "RSC:1147:290", "category": "rsc_placeholder_labels", "translation": "설명 없음"}
+{"id": "RSC:1148:291", "category": "rsc_placeholder_labels", "translation": "설명 없음"}
+{"id": "RSC:1149:292", "category": "rsc_placeholder_labels", "translation": "설명 없음"}
+{"id": "RSC:1150:293", "category": "rsc_placeholder_labels", "translation": "설명 없음"}
+{"id": "RSC:1155:298", "category": "rsc_placeholder_labels", "translation": "설명 없음"}
