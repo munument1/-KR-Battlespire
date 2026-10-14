@@ -4,7 +4,7 @@ import argparse,contextlib,hashlib,json,os,queue,shutil,struct,sys,tempfile,thre
 from pathlib import Path,PurePosixPath
 import bsdiff4
 
-VERSION='0.1.0'
+VERSION='0.1.1'
 ASSETS=Path(getattr(sys,'_MEIPASS',Path(__file__).resolve().parent))/'assets/korean-patch.zip'
 
 class PatchError(Exception):pass
